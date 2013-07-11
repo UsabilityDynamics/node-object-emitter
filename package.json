@@ -1,0 +1,59 @@
+{
+  "name": "object-workflows",
+  "description": "Observe Object states, abstract into events, and react to with Workflows and Activities.",
+  "author": {
+    "name": "Usability Dynamics",
+    "email": "info@usabilitydynamics.com",
+    "url": "http://usabilitydynamics.com"
+  },
+  "contributors": [
+    {
+      "name": "Andy Potanin",
+      "email": "andy.potanin@usabilitydynamics.com",
+      "url": "http://usabilitydynamics.com"
+    },
+    {
+      "name": "Ivan McCarthy",
+      "email": "ivan.mccarthy@usabilitydynamics.com",
+      "url": "http://usabilitydynamics.com"
+    }
+  ],
+  "keywords": [
+    "object",
+    "emitter",
+    "workflow",
+    "activity",
+    "viewmodel",
+    "events",
+    "watch",
+    "observe",
+    "harmony"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UsabilityDynamics/object-workflows.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UsabilityDynamics/object-workflows/issues"
+  },
+  "dependencies": {
+    "abstract": "*",
+    "object-settings": "*",
+    "utile": "*",
+    "debug": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "Faker": "*",
+    "express": "*",
+    "request": "*",
+    "colors": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "readmeFilename": "Readme.md"
+}
