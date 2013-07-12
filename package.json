@@ -1,5 +1,5 @@
 {
-  "name": "object-workflows",
+  "name": "object-workflow",
   "description": "Observe Object states, abstract into events, and react to with Workflows and Activities.",
   "author": {
     "name": "Usability Dynamics",
@@ -32,10 +32,10 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UsabilityDynamics/object-workflows.io.git"
+    "url": "https://github.com/UsabilityDynamics/object-workflow.io.git"
   },
   "bugs": {
-    "url": "https://github.com/UsabilityDynamics/object-workflows/issues"
+    "url": "https://github.com/UsabilityDynamics/object-workflow/issues"
   },
   "dependencies": {
     "abstract": "*",
