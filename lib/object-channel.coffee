@@ -3,6 +3,7 @@
 *
 * Create EventEmitter channels.
 *
+* @version 0.0.3
 * @module object-channel
 * @author potanin@UD
 * @constructor

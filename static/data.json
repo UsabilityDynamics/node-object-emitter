@@ -28,11 +28,17 @@
             "file": "lib/object-channel.js",
             "line": 2,
             "description": "Object Channels\n\nCreate EventEmitter channels.",
+            "version": "0.0.3",
             "author": "potanin@UD",
             "is_constructor": 1
         }
     },
     "classes": {},
     "classitems": [],
-    "warnings": []
+    "warnings": [
+        {
+            "message": "unknown tag: version",
+            "line": " lib/object-channel.js:2"
+        }
+    ]
 }
