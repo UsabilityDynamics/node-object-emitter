@@ -3,15 +3,48 @@
 Based on the EventEmitter2 library.
 Notable differences with EventEmitter2 library:
 
-  - Constructor will bind prototype properties to any context
-  - Methods are chainable.
+  - Convenience "mixin" method for easily adding EventEmitter to any object.
+  - All module methods (on, emit, off, onAny, etc) are chainable.
   - Wildcard matching enabled by default.
-  - Added "domain" usage.
-  - _conf property renamed to _channel
-  - default "error" callback can be set to avoid throwing "unspecified 'error' event" error
-  - custom logger can be set, defaults to "console"
+  - Extends existing EventEmitters by working with the _events property.
+  - Recognizes Node.js domain usage.
+  - Allows default configuration to be applied to new instances.
+  - Allows default "error" callback to avoid throwing "unspecified 'error' event" error.
+  - Custom logger can be set for debugging.
+  - Emulates Stream functionality and allows event piping via the "pipe" method.
 
 ## Basic Usage
+Create new instance of Object Channels.
+
+    require( 'object-channels' )
+      .create({ delimiter: ':' })
+      .on( '*:two', console.log )
+      .emit( 'ping:one', 'I am ignored.' );  
+      .emit( 'ping:two', 'I am not ignored!' );  
+
+Add Object Channels to a new object.
+
+    var MyObject = {};
+    
+    require( 'object-channels' ).mixin( MyObject );    
+    
+    MyObject
+      .on( 'ping', console.log )
+      .emit( 'ping', 'Chaining works!' );
+    
+Extend existing EventEmitter object and utilize wildcards.
+
+    require( 'object-channels' ).mixin( process );    
+    process.on( '*.ping', console.log );
+    process.emit( 'ding', 'I am ignored.' );
+    process.emit( 'ding.ping', 'I am not ignored!' );
+    
+Pipe Request stream to the console.
+
+    app.get( '/pipe', function( req, res, next ) {
+      require( 'object-channels' ).mixin( req ).pipe( process.stdout );         
+      next();      
+    });
 
 ## Advanced Usage
 
