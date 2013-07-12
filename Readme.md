@@ -1,3 +1,16 @@
+## Overview
+
+Based on the EventEmitter2 library.
+Notable differences with EventEmitter2 library:
+
+  - Constructor will bind prototype properties to any context
+  - Methods are chainable.
+  - Wildcard matching enabled by default.
+  - Added "domain" usage.
+  - _conf property renamed to _channel
+  - default "error" callback can be set to avoid throwing "unspecified 'error' event" error
+  - custom logger can be set, defaults to "console"
+
 ## Basic Usage
 
 ## Advanced Usage
