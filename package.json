@@ -1,6 +1,6 @@
 {
-  "name": "object-workflow",
-  "description": "Observe Object states, abstract into events, and react to with Workflows and Activities.",
+  "name": "object-channel",
+  "description": "Object Channel event emitter.",
   "author": {
     "name": "Usability Dynamics",
     "email": "info@usabilitydynamics.com",
@@ -32,23 +32,17 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UsabilityDynamics/object-workflow.io.git"
+    "url": "https://github.com/UsabilityDynamics/object-channel.git"
   },
   "bugs": {
-    "url": "https://github.com/UsabilityDynamics/object-workflow/issues"
+    "url": "https://github.com/UsabilityDynamics/object-channel/issues"
   },
   "dependencies": {
     "abstract": "*",
-    "object-settings": "*",
-    "utile": "*",
-    "debug": "*",
-    "lodash": "*"
+    "object-settings": "*"
   },
   "devDependencies": {
     "Faker": "*",
-    "express": "*",
-    "request": "*",
-    "colors": "*",
     "mocha": "*",
     "should": "*"
   },

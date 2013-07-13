@@ -8,7 +8,7 @@ YUI.add("yuidoc-meta", function(Y) {
         {
             "displayName": "object-channel",
             "name": "object-channel",
-            "description": "Object Channels\n\nCreate EventEmitter channels."
+            "description": "Object Channels\n\nCreate EventChannel channels."
         }
     ]
 } };

@@ -2,44 +2,743 @@
 if (typeof _$jscoverage === 'undefined') _$jscoverage = {};
 if (! _$jscoverage['object-channel.js']) {
   _$jscoverage['object-channel.js'] = [];
+  _$jscoverage['object-channel.js'][11] = 0;
   _$jscoverage['object-channel.js'][14] = 0;
-  _$jscoverage['object-channel.js'][15] = 0;
-  _$jscoverage['object-channel.js'][16] = 0;
+  _$jscoverage['object-channel.js'][17] = 0;
   _$jscoverage['object-channel.js'][23] = 0;
-  _$jscoverage['object-channel.js'][27] = 0;
-  _$jscoverage['object-channel.js'][35] = 0;
-  _$jscoverage['object-channel.js'][36] = 0;
-  _$jscoverage['object-channel.js'][37] = 0;
-  _$jscoverage['object-channel.js'][38] = 0;
-  _$jscoverage['object-channel.js'][39] = 0;
-  _$jscoverage['object-channel.js'][40] = 0;
+  _$jscoverage['object-channel.js'][31] = 0;
   _$jscoverage['object-channel.js'][42] = 0;
+  _$jscoverage['object-channel.js'][45] = 0;
+  _$jscoverage['object-channel.js'][48] = 0;
+  _$jscoverage['object-channel.js'][49] = 0;
+  _$jscoverage['object-channel.js'][54] = 0;
+  _$jscoverage['object-channel.js'][59] = 0;
+  _$jscoverage['object-channel.js'][63] = 0;
+  _$jscoverage['object-channel.js'][68] = 0;
+  _$jscoverage['object-channel.js'][70] = 0;
+  _$jscoverage['object-channel.js'][71] = 0;
+  _$jscoverage['object-channel.js'][74] = 0;
+  _$jscoverage['object-channel.js'][76] = 0;
+  _$jscoverage['object-channel.js'][77] = 0;
+  _$jscoverage['object-channel.js'][80] = 0;
+  _$jscoverage['object-channel.js'][81] = 0;
+  _$jscoverage['object-channel.js'][83] = 0;
+  _$jscoverage['object-channel.js'][85] = 0;
+  _$jscoverage['object-channel.js'][87] = 0;
+  _$jscoverage['object-channel.js'][92] = 0;
+  _$jscoverage['object-channel.js'][94] = 0;
+  _$jscoverage['object-channel.js'][97] = 0;
+  _$jscoverage['object-channel.js'][98] = 0;
+  _$jscoverage['object-channel.js'][99] = 0;
+  _$jscoverage['object-channel.js'][100] = 0;
+  _$jscoverage['object-channel.js'][101] = 0;
+  _$jscoverage['object-channel.js'][103] = 0;
+  _$jscoverage['object-channel.js'][104] = 0;
+  _$jscoverage['object-channel.js'][105] = 0;
+  _$jscoverage['object-channel.js'][110] = 0;
+  _$jscoverage['object-channel.js'][111] = 0;
+  _$jscoverage['object-channel.js'][114] = 0;
+  _$jscoverage['object-channel.js'][116] = 0;
+  _$jscoverage['object-channel.js'][118] = 0;
+  _$jscoverage['object-channel.js'][120] = 0;
+  _$jscoverage['object-channel.js'][122] = 0;
+  _$jscoverage['object-channel.js'][123] = 0;
+  _$jscoverage['object-channel.js'][124] = 0;
+  _$jscoverage['object-channel.js'][125] = 0;
+  _$jscoverage['object-channel.js'][126] = 0;
+  _$jscoverage['object-channel.js'][128] = 0;
+  _$jscoverage['object-channel.js'][129] = 0;
+  _$jscoverage['object-channel.js'][131] = 0;
+  _$jscoverage['object-channel.js'][132] = 0;
+  _$jscoverage['object-channel.js'][135] = 0;
+  _$jscoverage['object-channel.js'][136] = 0;
+  _$jscoverage['object-channel.js'][137] = 0;
+  _$jscoverage['object-channel.js'][138] = 0;
+  _$jscoverage['object-channel.js'][140] = 0;
+  _$jscoverage['object-channel.js'][143] = 0;
+  _$jscoverage['object-channel.js'][145] = 0;
+  _$jscoverage['object-channel.js'][146] = 0;
+  _$jscoverage['object-channel.js'][147] = 0;
+  _$jscoverage['object-channel.js'][148] = 0;
+  _$jscoverage['object-channel.js'][150] = 0;
+  _$jscoverage['object-channel.js'][151] = 0;
+  _$jscoverage['object-channel.js'][152] = 0;
+  _$jscoverage['object-channel.js'][153] = 0;
+  _$jscoverage['object-channel.js'][157] = 0;
+  _$jscoverage['object-channel.js'][164] = 0;
+  _$jscoverage['object-channel.js'][165] = 0;
+  _$jscoverage['object-channel.js'][166] = 0;
+  _$jscoverage['object-channel.js'][169] = 0;
+  _$jscoverage['object-channel.js'][171] = 0;
+  _$jscoverage['object-channel.js'][174] = 0;
+  _$jscoverage['object-channel.js'][177] = 0;
+  _$jscoverage['object-channel.js'][179] = 0;
+  _$jscoverage['object-channel.js'][180] = 0;
+  _$jscoverage['object-channel.js'][183] = 0;
+  _$jscoverage['object-channel.js'][184] = 0;
+  _$jscoverage['object-channel.js'][186] = 0;
+  _$jscoverage['object-channel.js'][188] = 0;
+  _$jscoverage['object-channel.js'][189] = 0;
+  _$jscoverage['object-channel.js'][192] = 0;
+  _$jscoverage['object-channel.js'][194] = 0;
+  _$jscoverage['object-channel.js'][196] = 0;
+  _$jscoverage['object-channel.js'][197] = 0;
+  _$jscoverage['object-channel.js'][198] = 0;
+  _$jscoverage['object-channel.js'][199] = 0;
+  _$jscoverage['object-channel.js'][200] = 0;
+  _$jscoverage['object-channel.js'][202] = 0;
+  _$jscoverage['object-channel.js'][204] = 0;
+  _$jscoverage['object-channel.js'][206] = 0;
+  _$jscoverage['object-channel.js'][208] = 0;
+  _$jscoverage['object-channel.js'][209] = 0;
+  _$jscoverage['object-channel.js'][212] = 0;
+  _$jscoverage['object-channel.js'][213] = 0;
+  _$jscoverage['object-channel.js'][214] = 0;
+  _$jscoverage['object-channel.js'][220] = 0;
+  _$jscoverage['object-channel.js'][224] = 0;
+  _$jscoverage['object-channel.js'][228] = 0;
+  _$jscoverage['object-channel.js'][240] = 0;
+  _$jscoverage['object-channel.js'][241] = 0;
+  _$jscoverage['object-channel.js'][245] = 0;
+  _$jscoverage['object-channel.js'][247] = 0;
+  _$jscoverage['object-channel.js'][252] = 0;
+  _$jscoverage['object-channel.js'][253] = 0;
+  _$jscoverage['object-channel.js'][256] = 0;
+  _$jscoverage['object-channel.js'][258] = 0;
+  _$jscoverage['object-channel.js'][260] = 0;
+  _$jscoverage['object-channel.js'][262] = 0;
+  _$jscoverage['object-channel.js'][263] = 0;
+  _$jscoverage['object-channel.js'][264] = 0;
+  _$jscoverage['object-channel.js'][265] = 0;
+  _$jscoverage['object-channel.js'][267] = 0;
+  _$jscoverage['object-channel.js'][269] = 0;
+  _$jscoverage['object-channel.js'][270] = 0;
+  _$jscoverage['object-channel.js'][271] = 0;
+  _$jscoverage['object-channel.js'][272] = 0;
+  _$jscoverage['object-channel.js'][276] = 0;
+  _$jscoverage['object-channel.js'][277] = 0;
+  _$jscoverage['object-channel.js'][280] = 0;
+  _$jscoverage['object-channel.js'][282] = 0;
+  _$jscoverage['object-channel.js'][283] = 0;
+  _$jscoverage['object-channel.js'][286] = 0;
+  _$jscoverage['object-channel.js'][287] = 0;
+  _$jscoverage['object-channel.js'][291] = 0;
+  _$jscoverage['object-channel.js'][296] = 0;
+  _$jscoverage['object-channel.js'][297] = 0;
+  _$jscoverage['object-channel.js'][298] = 0;
+  _$jscoverage['object-channel.js'][299] = 0;
+  _$jscoverage['object-channel.js'][300] = 0;
+  _$jscoverage['object-channel.js'][301] = 0;
+  _$jscoverage['object-channel.js'][302] = 0;
+  _$jscoverage['object-channel.js'][306] = 0;
+  _$jscoverage['object-channel.js'][308] = 0;
+  _$jscoverage['object-channel.js'][313] = 0;
+  _$jscoverage['object-channel.js'][314] = 0;
+  _$jscoverage['object-channel.js'][315] = 0;
+  _$jscoverage['object-channel.js'][318] = 0;
+  _$jscoverage['object-channel.js'][319] = 0;
+  _$jscoverage['object-channel.js'][321] = 0;
+  _$jscoverage['object-channel.js'][322] = 0;
+  _$jscoverage['object-channel.js'][323] = 0;
+  _$jscoverage['object-channel.js'][326] = 0;
+  _$jscoverage['object-channel.js'][332] = 0;
+  _$jscoverage['object-channel.js'][333] = 0;
+  _$jscoverage['object-channel.js'][335] = 0;
+  _$jscoverage['object-channel.js'][337] = 0;
+  _$jscoverage['object-channel.js'][352] = 0;
+  _$jscoverage['object-channel.js'][353] = 0;
+  _$jscoverage['object-channel.js'][356] = 0;
+  _$jscoverage['object-channel.js'][358] = 0;
+  _$jscoverage['object-channel.js'][360] = 0;
+  _$jscoverage['object-channel.js'][362] = 0;
+  _$jscoverage['object-channel.js'][363] = 0;
+  _$jscoverage['object-channel.js'][364] = 0;
+  _$jscoverage['object-channel.js'][367] = 0;
+  _$jscoverage['object-channel.js'][368] = 0;
+  _$jscoverage['object-channel.js'][370] = 0;
+  _$jscoverage['object-channel.js'][375] = 0;
+  _$jscoverage['object-channel.js'][377] = 0;
+  _$jscoverage['object-channel.js'][378] = 0;
+  _$jscoverage['object-channel.js'][379] = 0;
+  _$jscoverage['object-channel.js'][380] = 0;
+  _$jscoverage['object-channel.js'][383] = 0;
+  _$jscoverage['object-channel.js'][385] = 0;
+  _$jscoverage['object-channel.js'][386] = 0;
+  _$jscoverage['object-channel.js'][387] = 0;
+  _$jscoverage['object-channel.js'][389] = 0;
+  _$jscoverage['object-channel.js'][392] = 0;
+  _$jscoverage['object-channel.js'][393] = 0;
+  _$jscoverage['object-channel.js'][394] = 0;
+  _$jscoverage['object-channel.js'][395] = 0;
+  _$jscoverage['object-channel.js'][396] = 0;
+  _$jscoverage['object-channel.js'][398] = 0;
+  _$jscoverage['object-channel.js'][399] = 0;
+  _$jscoverage['object-channel.js'][400] = 0;
+  _$jscoverage['object-channel.js'][403] = 0;
+  _$jscoverage['object-channel.js'][407] = 0;
+  _$jscoverage['object-channel.js'][410] = 0;
+  _$jscoverage['object-channel.js'][414] = 0;
+  _$jscoverage['object-channel.js'][416] = 0;
+  _$jscoverage['object-channel.js'][417] = 0;
+  _$jscoverage['object-channel.js'][420] = 0;
+  _$jscoverage['object-channel.js'][422] = 0;
+  _$jscoverage['object-channel.js'][423] = 0;
+  _$jscoverage['object-channel.js'][425] = 0;
+  _$jscoverage['object-channel.js'][426] = 0;
+  _$jscoverage['object-channel.js'][430] = 0;
+  _$jscoverage['object-channel.js'][431] = 0;
+  _$jscoverage['object-channel.js'][432] = 0;
+  _$jscoverage['object-channel.js'][434] = 0;
+  _$jscoverage['object-channel.js'][435] = 0;
+  _$jscoverage['object-channel.js'][437] = 0;
+  _$jscoverage['object-channel.js'][439] = 0;
+  _$jscoverage['object-channel.js'][440] = 0;
+  _$jscoverage['object-channel.js'][441] = 0;
+  _$jscoverage['object-channel.js'][445] = 0;
+  _$jscoverage['object-channel.js'][447] = 0;
+  _$jscoverage['object-channel.js'][448] = 0;
+  _$jscoverage['object-channel.js'][449] = 0;
+  _$jscoverage['object-channel.js'][453] = 0;
+  _$jscoverage['object-channel.js'][461] = 0;
+  _$jscoverage['object-channel.js'][462] = 0;
+  _$jscoverage['object-channel.js'][464] = 0;
+  _$jscoverage['object-channel.js'][465] = 0;
+  _$jscoverage['object-channel.js'][466] = 0;
+  _$jscoverage['object-channel.js'][467] = 0;
+  _$jscoverage['object-channel.js'][471] = 0;
 }
-_$jscoverage['object-channel.js'][14]++;
-(function () {
-  _$jscoverage['object-channel.js'][15]++;
-  require("abstract").createModel((function (model, prototype) {
-  _$jscoverage['object-channel.js'][16]++;
-  model.set({"defaults": {delimiter: ".", wildcard: true, maxListeners: 20}});
+_$jscoverage['object-channel.js'][11]++;
+require("abstract").createModel((function Channel(Channel, prototype) {
+  _$jscoverage['object-channel.js'][14]++;
+  module.exports = Channel;
+  _$jscoverage['object-channel.js'][17]++;
+  Channel.set("defaults", {delimiter: ".", wildcard: true, maxListeners: 20});
   _$jscoverage['object-channel.js'][23]++;
-  model.properties({defaults: require("abstract").utility.noop, noop: require("abstract").utility.noop});
-  _$jscoverage['object-channel.js'][27]++;
-  model.properties(prototype, {emit: require("eventemitter2").EventEmitter2.prototype.emit, on: require("eventemitter2").EventEmitter2.prototype.on, off: require("eventemitter2").EventEmitter2.prototype.off, onAny: require("eventemitter2").EventEmitter2.prototype.onAny, subscribe: require("abstract").utility.noop, unsubscribe: require("abstract").utility.noop});
-  _$jscoverage['object-channel.js'][35]++;
-  model.defineInstance((function (config) {
-  _$jscoverage['object-channel.js'][36]++;
-  this.listenerTree = {};
-  _$jscoverage['object-channel.js'][37]++;
-  this.wildcard = model.get("defaults.wildcard");
-  _$jscoverage['object-channel.js'][38]++;
-  this.maxListeners = model.get("defaults.maxListeners");
-  _$jscoverage['object-channel.js'][39]++;
-  this.delimiter = model.get("defaults.delimiter");
-  _$jscoverage['object-channel.js'][40]++;
-  return this.set("emitter", config);
-}));
+  Channel.properties({defaults: (function (defaults) {
+  _$jscoverage['object-channel.js'][31]++;
+  return Channel.set("defaults", defaults);
+}), eventify: (function eventify(target, namespace, options) {
   _$jscoverage['object-channel.js'][42]++;
-  return module.exports = model;
+  Channel.extend(target, namespace, options);
+  _$jscoverage['object-channel.js'][45]++;
+  Object.getOwnPropertyName(target).forEach((function (method) {
+  _$jscoverage['object-channel.js'][48]++;
+  if (method !== "on" && method != "emit" && "function" === typeof target[method]) {
+    _$jscoverage['object-channel.js'][49]++;
+    target.on(method, target[method]);
+  }
 }));
-}).call(this);
-_$jscoverage['object-channel.js'].source = ["// Generated by CoffeeScript 1.6.3","/**","* Object Channels","*","* Create EventEmitter channels.","*","* @version 0.0.3","* @module object-channel","* @author potanin@UD","* @constructor","*/","","","(function() {","  require('abstract').createModel(function(model, prototype) {","    model.set({","      'defaults': {","        delimiter: '.',","        wildcard: true,","        maxListeners: 20","      }","    });","    model.properties({","      defaults: require('abstract').utility.noop,","      noop: require('abstract').utility.noop","    });","    model.properties(prototype, {","      emit: require('eventemitter2').EventEmitter2.prototype.emit,","      on: require('eventemitter2').EventEmitter2.prototype.on,","      off: require('eventemitter2').EventEmitter2.prototype.off,","      onAny: require('eventemitter2').EventEmitter2.prototype.onAny,","      subscribe: require('abstract').utility.noop,","      unsubscribe: require('abstract').utility.noop","    });","    model.defineInstance(function(config) {","      this.listenerTree = {};","      this.wildcard = model.get('defaults.wildcard');","      this.maxListeners = model.get('defaults.maxListeners');","      this.delimiter = model.get('defaults.delimiter');","      return this.set('emitter', config);","    });","    return module.exports = model;","  });","","}).call(this);"];
+  _$jscoverage['object-channel.js'][54]++;
+  return this;
+})});
+  _$jscoverage['object-channel.js'][59]++;
+  Channel.properties(prototype, {event: undefined, once: (function once(event, fn) {
+  _$jscoverage['object-channel.js'][63]++;
+  return this.many(event, 1, fn);
+}), many: (function (event, ttl, fn) {
+  _$jscoverage['object-channel.js'][68]++;
+  var self = this;
+  _$jscoverage['object-channel.js'][70]++;
+  if (typeof fn !== "function") {
+    _$jscoverage['object-channel.js'][71]++;
+    throw new Error("many only accepts instances of Function");
+  }
+  _$jscoverage['object-channel.js'][74]++;
+  function listener() {
+    _$jscoverage['object-channel.js'][76]++;
+    if (--ttl === 0) {
+      _$jscoverage['object-channel.js'][77]++;
+      self.off(event, listener);
+    }
+    _$jscoverage['object-channel.js'][80]++;
+    fn.apply(this, arguments);
+}
+  _$jscoverage['object-channel.js'][81]++;
+  ;
+  _$jscoverage['object-channel.js'][83]++;
+  listener._origin = fn;
+  _$jscoverage['object-channel.js'][85]++;
+  this.on(event, listener);
+  _$jscoverage['object-channel.js'][87]++;
+  return this;
+}), emit: (function emit() {
+  _$jscoverage['object-channel.js'][92]++;
+  this._events || Channel.call(this);
+  _$jscoverage['object-channel.js'][94]++;
+  var type = arguments[0] && "object" === typeof arguments[0] && Object.keys(arguments[0]).length? arguments[0].join(this._channel.delimiter): arguments[0];
+  _$jscoverage['object-channel.js'][97]++;
+  if (this._events["**"].length) {
+    _$jscoverage['object-channel.js'][98]++;
+    var l = arguments.length;
+    _$jscoverage['object-channel.js'][99]++;
+    var args = new Array(l - 1);
+    _$jscoverage['object-channel.js'][100]++;
+    for (var i = 1; i < l; i++) {
+      _$jscoverage['object-channel.js'][101]++;
+      args[i - 1] = arguments[i];
+}
+    _$jscoverage['object-channel.js'][103]++;
+    for (i = 0, l = this._events["**"].length; i < l; i++) {
+      _$jscoverage['object-channel.js'][104]++;
+      this.event = type;
+      _$jscoverage['object-channel.js'][105]++;
+      this._events["**"][i].apply(this, args);
+}
+  }
+  _$jscoverage['object-channel.js'][110]++;
+  if (type === "error" && ! this._events["**"].length && ! this._events.error) {
+    _$jscoverage['object-channel.js'][111]++;
+    throw arguments[1] instanceof Error? arguments[1]: new Error("Uncaught, unspecified 'error' event.");
+  }
+  _$jscoverage['object-channel.js'][114]++;
+  var handler = [];
+  _$jscoverage['object-channel.js'][116]++;
+  var ns = typeof type === "string"? type.split(this._channel.delimiter): type.slice();
+  _$jscoverage['object-channel.js'][118]++;
+  this.searchListenerTree(handler, ns, this._events, 0);
+  _$jscoverage['object-channel.js'][120]++;
+  if (typeof handler === "function") {
+    _$jscoverage['object-channel.js'][122]++;
+    this.event = type;
+    _$jscoverage['object-channel.js'][123]++;
+    if (arguments.length === 1) {
+      _$jscoverage['object-channel.js'][124]++;
+      handler.call(this);
+    }
+    else {
+      _$jscoverage['object-channel.js'][125]++;
+      if (arguments.length > 1) {
+        _$jscoverage['object-channel.js'][126]++;
+        switch (arguments.length) {
+        case 2:
+          _$jscoverage['object-channel.js'][128]++;
+          handler.call(this, arguments[1]);
+          _$jscoverage['object-channel.js'][129]++;
+          break;
+        case 3:
+          _$jscoverage['object-channel.js'][131]++;
+          handler.call(this, arguments[1], arguments[2]);
+          _$jscoverage['object-channel.js'][132]++;
+          break;
+        default:
+          _$jscoverage['object-channel.js'][135]++;
+          var l = arguments.length;
+          _$jscoverage['object-channel.js'][136]++;
+          var args = new Array(l - 1);
+          _$jscoverage['object-channel.js'][137]++;
+          for (var i = 1; i < l; i++) {
+            _$jscoverage['object-channel.js'][138]++;
+            args[i - 1] = arguments[i];
+}
+          _$jscoverage['object-channel.js'][140]++;
+          handler.apply(this, args);
+        }
+      }
+    }
+  }
+  else {
+    _$jscoverage['object-channel.js'][143]++;
+    if (handler) {
+      _$jscoverage['object-channel.js'][145]++;
+      var l = arguments.length;
+      _$jscoverage['object-channel.js'][146]++;
+      var args = new Array(l - 1);
+      _$jscoverage['object-channel.js'][147]++;
+      for (var i = 1; i < l; i++) {
+        _$jscoverage['object-channel.js'][148]++;
+        args[i - 1] = arguments[i];
+}
+      _$jscoverage['object-channel.js'][150]++;
+      var listeners = handler.slice();
+      _$jscoverage['object-channel.js'][151]++;
+      for (var i = 0, l = listeners.length; i < l; i++) {
+        _$jscoverage['object-channel.js'][152]++;
+        this.event = type;
+        _$jscoverage['object-channel.js'][153]++;
+        listeners[i].apply(this, args);
+}
+    }
+  }
+  _$jscoverage['object-channel.js'][157]++;
+  return this;
+}), on: (function on(type, listener) {
+  _$jscoverage['object-channel.js'][164]++;
+  if (typeof type === "function") {
+    _$jscoverage['object-channel.js'][165]++;
+    listener = type;
+    _$jscoverage['object-channel.js'][166]++;
+    type = "**";
+  }
+  _$jscoverage['object-channel.js'][169]++;
+  if (typeof listener !== "function") {
+    _$jscoverage['object-channel.js'][171]++;
+    if (this.settings["throw"]) {
+      _$jscoverage['object-channel.js'][171]++;
+      throw new Error("on only accepts instances of Function");
+    }
+    else {
+      _$jscoverage['object-channel.js'][171]++;
+      return this;
+    }
+  }
+  _$jscoverage['object-channel.js'][174]++;
+  this._events || Channel.call(this);
+  _$jscoverage['object-channel.js'][177]++;
+  type = typeof type === "string"? type.split(this._channel.delimiter).filter((function () {
+  _$jscoverage['object-channel.js'][177]++;
+  return arguments[0];
+})): type.slice();
+  _$jscoverage['object-channel.js'][179]++;
+  for (var i = 0, len = type.length; i + 1 < len; i++) {
+    _$jscoverage['object-channel.js'][180]++;
+    if (type[i] === "**" && type[i + 1] === "**") {
+      _$jscoverage['object-channel.js'][180]++;
+      return this;
+    }
+}
+  _$jscoverage['object-channel.js'][183]++;
+  var tree = this._events;
+  _$jscoverage['object-channel.js'][184]++;
+  var name = type.shift();
+  _$jscoverage['object-channel.js'][186]++;
+  while (name) {
+    _$jscoverage['object-channel.js'][188]++;
+    if (! tree[name]) {
+      _$jscoverage['object-channel.js'][189]++;
+      tree[name] = {};
+    }
+    _$jscoverage['object-channel.js'][192]++;
+    tree = tree[name];
+    _$jscoverage['object-channel.js'][194]++;
+    if (type.length === 0) {
+      _$jscoverage['object-channel.js'][196]++;
+      if (! tree._listeners) {
+        _$jscoverage['object-channel.js'][197]++;
+        tree._listeners = listener;
+      }
+      else {
+        _$jscoverage['object-channel.js'][198]++;
+        if (typeof tree._listeners === "function") {
+          _$jscoverage['object-channel.js'][199]++;
+          tree._listeners = [tree._listeners, listener];
+        }
+        else {
+          _$jscoverage['object-channel.js'][200]++;
+          if (Array.isArray(tree._listeners)) {
+            _$jscoverage['object-channel.js'][202]++;
+            tree._listeners.push(listener);
+            _$jscoverage['object-channel.js'][204]++;
+            if (! tree._listeners.warned) {
+              _$jscoverage['object-channel.js'][206]++;
+              var m = this.maxListeners;
+              _$jscoverage['object-channel.js'][208]++;
+              if (typeof this._events.maxListeners !== "undefined") {
+                _$jscoverage['object-channel.js'][209]++;
+                m = this._events.maxListeners;
+              }
+              _$jscoverage['object-channel.js'][212]++;
+              if (m > 0 && tree._listeners.length > m) {
+                _$jscoverage['object-channel.js'][213]++;
+                tree._listeners.warned = true;
+                _$jscoverage['object-channel.js'][214]++;
+                console.error("(node) warning: possible Channel leak.", tree._listeners.length);
+              }
+            }
+          }
+        }
+      }
+      _$jscoverage['object-channel.js'][220]++;
+      return this;
+    }
+    _$jscoverage['object-channel.js'][224]++;
+    name = type.shift();
+}
+  _$jscoverage['object-channel.js'][228]++;
+  return this;
+}), onAny: (function onAny(fn) {
+  _$jscoverage['object-channel.js'][240]++;
+  if (typeof fn !== "function") {
+    _$jscoverage['object-channel.js'][241]++;
+    throw new Error("onAny only accepts instances of Function");
+  }
+  _$jscoverage['object-channel.js'][245]++;
+  this._events["**"].push(fn);
+  _$jscoverage['object-channel.js'][247]++;
+  return this;
+}), off: (function off(type, listener) {
+  _$jscoverage['object-channel.js'][252]++;
+  if (typeof listener !== "function") {
+    _$jscoverage['object-channel.js'][253]++;
+    throw new Error("removeListener only takes instances of Function");
+  }
+  _$jscoverage['object-channel.js'][256]++;
+  var handlers, leafs = [];
+  _$jscoverage['object-channel.js'][258]++;
+  var ns = typeof type === "string"? type.split(this._channel.delimiter): type.slice();
+  _$jscoverage['object-channel.js'][260]++;
+  leafs = this.searchListenerTree(null, ns, this._events, 0);
+  _$jscoverage['object-channel.js'][262]++;
+  for (var iLeaf = 0; iLeaf < leafs.length; iLeaf++) {
+    _$jscoverage['object-channel.js'][263]++;
+    var leaf = leafs[iLeaf];
+    _$jscoverage['object-channel.js'][264]++;
+    handlers = leaf._listeners;
+    _$jscoverage['object-channel.js'][265]++;
+    if (Array.isArray(handlers)) {
+      _$jscoverage['object-channel.js'][267]++;
+      var position = -1;
+      _$jscoverage['object-channel.js'][269]++;
+      for (var i = 0, length = handlers.length; i < length; i++) {
+        _$jscoverage['object-channel.js'][270]++;
+        if (handlers[i] === listener || (handlers[i].listener && handlers[i].listener === listener) || (handlers[i]._origin && handlers[i]._origin === listener)) {
+          _$jscoverage['object-channel.js'][271]++;
+          position = i;
+          _$jscoverage['object-channel.js'][272]++;
+          break;
+        }
+}
+      _$jscoverage['object-channel.js'][276]++;
+      if (position < 0) {
+        _$jscoverage['object-channel.js'][277]++;
+        return this;
+      }
+      _$jscoverage['object-channel.js'][280]++;
+      leaf._listeners.splice(position, 1);
+      _$jscoverage['object-channel.js'][282]++;
+      if (handlers.length === 0) {
+        _$jscoverage['object-channel.js'][283]++;
+        delete leaf._listeners;
+      }
+    }
+    else {
+      _$jscoverage['object-channel.js'][286]++;
+      if (handlers === listener || (handlers.listener && handlers.listener === listener) || (handlers._origin && handlers._origin === listener)) {
+        _$jscoverage['object-channel.js'][287]++;
+        delete leaf._listeners;
+      }
+    }
+}
+  _$jscoverage['object-channel.js'][291]++;
+  return this;
+}), offAny: (function offAny(fn) {
+  _$jscoverage['object-channel.js'][296]++;
+  var i = 0, l = 0, fns;
+  _$jscoverage['object-channel.js'][297]++;
+  if (fn && this._events["**"].length > 0) {
+    _$jscoverage['object-channel.js'][298]++;
+    fns = this._events["**"];
+    _$jscoverage['object-channel.js'][299]++;
+    for (i = 0, l = fns.length; i < l; i++) {
+      _$jscoverage['object-channel.js'][300]++;
+      if (fn === fns[i]) {
+        _$jscoverage['object-channel.js'][301]++;
+        fns.splice(i, 1);
+        _$jscoverage['object-channel.js'][302]++;
+        return this;
+      }
+}
+  }
+  else {
+    _$jscoverage['object-channel.js'][306]++;
+    this._events["**"] = [];
+  }
+  _$jscoverage['object-channel.js'][308]++;
+  return this;
+}), removeAllListeners: (function removeAllListeners(type) {
+  _$jscoverage['object-channel.js'][313]++;
+  if (arguments.length === 0) {
+    _$jscoverage['object-channel.js'][314]++;
+    ! this._events || Channel.call(this);
+    _$jscoverage['object-channel.js'][315]++;
+    return this;
+  }
+  _$jscoverage['object-channel.js'][318]++;
+  var ns = typeof type === "string"? type.split(this._channel.delimiter): type.slice();
+  _$jscoverage['object-channel.js'][319]++;
+  var leafs = this.searchListenerTree(null, ns, this._events, 0);
+  _$jscoverage['object-channel.js'][321]++;
+  for (var iLeaf = 0; iLeaf < leafs.length; iLeaf++) {
+    _$jscoverage['object-channel.js'][322]++;
+    var leaf = leafs[iLeaf];
+    _$jscoverage['object-channel.js'][323]++;
+    leaf._listeners = null;
+}
+  _$jscoverage['object-channel.js'][326]++;
+  return this;
+}), listeners: (function listeners(type) {
+  _$jscoverage['object-channel.js'][332]++;
+  var handlers = [];
+  _$jscoverage['object-channel.js'][333]++;
+  var ns = typeof type === "string"? type.split(this._channel.delimiter): type.slice();
+  _$jscoverage['object-channel.js'][335]++;
+  this.searchListenerTree(handlers, ns, this._events, 0);
+  _$jscoverage['object-channel.js'][337]++;
+  return handlers;
+}), searchListenerTree: (function searchListenerTree(handlers, type, tree, i) {
+  _$jscoverage['object-channel.js'][352]++;
+  if (! tree) {
+    _$jscoverage['object-channel.js'][353]++;
+    return [];
+  }
+  _$jscoverage['object-channel.js'][356]++;
+  var self = this;
+  _$jscoverage['object-channel.js'][358]++;
+  var listeners = [], leaf, len, branch, xTree, xxTree, isolatedBranch, endReached, typeLength = type.length, currentType = type[i], nextType = type[i + 1];
+  _$jscoverage['object-channel.js'][360]++;
+  if (i === typeLength && tree._listeners) {
+    _$jscoverage['object-channel.js'][362]++;
+    if (typeof tree._listeners === "function") {
+      _$jscoverage['object-channel.js'][363]++;
+      handlers && handlers.push(tree._listeners);
+      _$jscoverage['object-channel.js'][364]++;
+      return [tree];
+    }
+    else {
+      _$jscoverage['object-channel.js'][367]++;
+      for (leaf = 0, len = tree._listeners.length; leaf < len; leaf++) {
+        _$jscoverage['object-channel.js'][368]++;
+        handlers && handlers.push(tree._listeners[leaf]);
+}
+      _$jscoverage['object-channel.js'][370]++;
+      return [tree];
+    }
+  }
+  _$jscoverage['object-channel.js'][375]++;
+  if ((currentType === "*" || currentType === "**") || tree[currentType]) {
+    _$jscoverage['object-channel.js'][377]++;
+    if (currentType === "*") {
+      _$jscoverage['object-channel.js'][378]++;
+      for (branch in tree) {
+        _$jscoverage['object-channel.js'][379]++;
+        if (branch !== "_listeners" && tree.hasOwnProperty(branch)) {
+          _$jscoverage['object-channel.js'][380]++;
+          listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i + 1));
+        }
+}
+      _$jscoverage['object-channel.js'][383]++;
+      return listeners;
+    }
+    else {
+      _$jscoverage['object-channel.js'][385]++;
+      if (currentType === "**") {
+        _$jscoverage['object-channel.js'][386]++;
+        endReached = (i + 1 === typeLength || (i + 2 === typeLength && nextType === "*"));
+        _$jscoverage['object-channel.js'][387]++;
+        if (endReached && tree._listeners) {
+          _$jscoverage['object-channel.js'][389]++;
+          listeners = listeners.concat(this.searchListenerTree(handlers, type, tree, typeLength));
+        }
+        _$jscoverage['object-channel.js'][392]++;
+        for (branch in tree) {
+          _$jscoverage['object-channel.js'][393]++;
+          if (branch !== "_listeners" && tree.hasOwnProperty(branch)) {
+            _$jscoverage['object-channel.js'][394]++;
+            if (branch === "*" || branch === "**") {
+              _$jscoverage['object-channel.js'][395]++;
+              if (tree[branch]._listeners && ! endReached) {
+                _$jscoverage['object-channel.js'][396]++;
+                listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], typeLength));
+              }
+              _$jscoverage['object-channel.js'][398]++;
+              listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i));
+            }
+            else {
+              _$jscoverage['object-channel.js'][399]++;
+              if (branch === nextType) {
+                _$jscoverage['object-channel.js'][400]++;
+                listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i + 2));
+              }
+              else {
+                _$jscoverage['object-channel.js'][403]++;
+                listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i));
+              }
+            }
+          }
+}
+        _$jscoverage['object-channel.js'][407]++;
+        return listeners;
+      }
+    }
+    _$jscoverage['object-channel.js'][410]++;
+    listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[currentType], i + 1));
+  }
+  _$jscoverage['object-channel.js'][414]++;
+  xTree = tree["*"];
+  _$jscoverage['object-channel.js'][416]++;
+  if (xTree) {
+    _$jscoverage['object-channel.js'][417]++;
+    this.searchListenerTree(handlers, type, xTree, i + 1);
+  }
+  _$jscoverage['object-channel.js'][420]++;
+  xxTree = tree["**"];
+  _$jscoverage['object-channel.js'][422]++;
+  if (xxTree) {
+    _$jscoverage['object-channel.js'][423]++;
+    if (i < typeLength) {
+      _$jscoverage['object-channel.js'][425]++;
+      if (xxTree._listeners) {
+        _$jscoverage['object-channel.js'][426]++;
+        this.searchListenerTree(handlers, type, xxTree, typeLength);
+      }
+      _$jscoverage['object-channel.js'][430]++;
+      for (branch in xxTree) {
+        _$jscoverage['object-channel.js'][431]++;
+        if (branch !== "_listeners" && xxTree.hasOwnProperty(branch)) {
+          _$jscoverage['object-channel.js'][432]++;
+          if (branch === nextType) {
+            _$jscoverage['object-channel.js'][434]++;
+            this.searchListenerTree(handlers, type, xxTree[branch], i + 2);
+          }
+          else {
+            _$jscoverage['object-channel.js'][435]++;
+            if (branch === currentType) {
+              _$jscoverage['object-channel.js'][437]++;
+              this.searchListenerTree(handlers, type, xxTree[branch], i + 1);
+            }
+            else {
+              _$jscoverage['object-channel.js'][439]++;
+              isolatedBranch = {};
+              _$jscoverage['object-channel.js'][440]++;
+              isolatedBranch[branch] = xxTree[branch];
+              _$jscoverage['object-channel.js'][441]++;
+              this.searchListenerTree(handlers, type, {"**": isolatedBranch}, i + 1);
+            }
+          }
+        }
+}
+    }
+    else {
+      _$jscoverage['object-channel.js'][445]++;
+      if (xxTree._listeners) {
+        _$jscoverage['object-channel.js'][447]++;
+        this.searchListenerTree(handlers, type, xxTree, typeLength);
+      }
+      else {
+        _$jscoverage['object-channel.js'][448]++;
+        if (xxTree["*"] && xxTree["*"]._listeners) {
+          _$jscoverage['object-channel.js'][449]++;
+          this.searchListenerTree(handlers, type, xxTree["*"], typeLength);
+        }
+      }
+    }
+  }
+  _$jscoverage['object-channel.js'][453]++;
+  return listeners;
+}), subscribe: require("abstract").utility.noop, unsubscribe: require("abstract").utility.noop});
+  _$jscoverage['object-channel.js'][461]++;
+  Channel.defineInstance((function createChannel(config) {
+  _$jscoverage['object-channel.js'][462]++;
+  var Instance = this;
+  _$jscoverage['object-channel.js'][464]++;
+  Instance.listenerTree = {};
+  _$jscoverage['object-channel.js'][465]++;
+  Instance.wildcard = Channel.get("defaults.wildcard", true);
+  _$jscoverage['object-channel.js'][466]++;
+  Instance.maxListeners = Channel.get("defaults.maxListeners", 100);
+  _$jscoverage['object-channel.js'][467]++;
+  Instance.delimiter = Channel.get("defaults.delimiter", ".");
+  _$jscoverage['object-channel.js'][471]++;
+  return this;
+}));
+}));
+_$jscoverage['object-channel.js'].source = ["/**"," * Object Channels"," *"," * Create EventChannel channels."," *"," * @version 0.0.3"," * @module object-channel"," * @author potanin@UD"," * @constructor"," */","require( 'abstract' ).createModel( function Channel( Channel, prototype ) {","","  // Expose","  module.exports = Channel;","","  // Set Defaults","  Channel.set( 'defaults', {","    delimiter: '.',","    wildcard: true,","    maxListeners: 20","  });","","  Channel.properties({","    /**","     * Set Defaults","     *","     * @param defaults","     * @returns {Object} Instance.","     */","    defaults: function( defaults ) {","      return Channel.set( 'defaults', defaults );","    },","    /**","     * Add Event wrappers to an Object's properties","     *","     * @method eventify","     * @chainable","     */","    eventify: function eventify( target, namespace, options ) {","","      // Enable EventChannel","      Channel.extend( target, namespace, options );","","      // Trigger Method on Event","      Object.getOwnPropertyName( target ).forEach( function( method ) {","","        // @todo Should probably exclude all EE methods from being bound","        if( method !== 'on' &amp;&amp; method != 'emit' &amp;&amp; 'function' === typeof target[ method ] ) {","          target.on( method, target[ method ] );","        }","","      });","","      return this;","","    }","  });","","  Channel.properties( prototype, {","    event: undefined,","    once: function once( event, fn ) {","      // Channel.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1] );","      return this.many( event, 1, fn );","    },","    many: function( event, ttl, fn ) {","      // Channel.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1], typeof arguments[2] );","","      var self = this;","","      if( typeof fn !== 'function' ) {","        throw new Error( 'many only accepts instances of Function' );","      }","","      function listener() {","","        if( --ttl === 0 ) {","          self.off( event, listener );","        }","","        fn.apply( this, arguments );","      };","","      listener._origin = fn;","","      this.on( event, listener );","","      return this;","    },","    emit: function emit() {","      // Channel.logger.debug( arguments.callee.name, arguments[0] );","","      this._events || Channel.call( this );","","      var type = arguments[0] &amp;&amp; 'object' === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this._channel.delimiter ) : arguments[0];","","      // Loop through the ** functions and invoke them.","      if( this._events[ '**' ].length ) {","        var l = arguments.length;","        var args = new Array( l - 1 );","        for( var i = 1; i &lt; l; i++ ) {","          args[i - 1] = arguments[i];","        }","        for( i = 0, l = this._events[ '**' ].length; i &lt; l; i++ ) {","          this.event = type;","          this._events[ '**' ][i].apply( this, args );","        }","      }","","      // If there is no 'error' event listener then throw.","      if( type === 'error' &amp;&amp; !this._events[ '**' ].length &amp;&amp; !this._events.error ) {","        throw arguments[1] instanceof Error ? arguments[1] : new Error( \"Uncaught, unspecified 'error' event.\" );","      }","","      var handler = [];","","      var ns = typeof type === 'string' ? type.split( this._channel.delimiter ) : type.slice();","","      this.searchListenerTree( handler, ns, this._events, 0 );","","      if( typeof handler === 'function' ) {","        //// Channel.logger.debug( '%s() handler %s IS a function', arguments.callee.name, type );","        this.event = type;","        if( arguments.length === 1 ) {","          handler.call( this );","        } else if( arguments.length &gt; 1 ) {","          switch( arguments.length ) {","            case 2:","              handler.call( this, arguments[1] );","              break;","            case 3:","              handler.call( this, arguments[1], arguments[2] );","              break;","            // slower","            default:","              var l = arguments.length;","              var args = new Array( l - 1 );","              for( var i = 1; i &lt; l; i++ ) {","                args[i - 1] = arguments[i];","              }","              handler.apply( this, args );","          }","        }","      } else if( handler ) {","        //// Channel.logger.debug( '%s() handler %s is not a function', arguments.callee.name, type );","        var l = arguments.length;","        var args = new Array( l - 1 );","        for( var i = 1; i &lt; l; i++ ) {","          args[i - 1] = arguments[i];","        }","        var listeners = handler.slice();","        for( var i = 0, l = listeners.length; i &lt; l; i++ ) {","          this.event = type;","          listeners[i].apply( this, args );","        }","      }","","      return this;","","    },","    on: function on( type, listener ) {","      // Channel.logger.debug( arguments.callee.name, arguments[0] )","","      // If no type specified, assume we are creating an all-event listener","      if( typeof type === 'function' ) {","        listener = type;","        type = '**';","      }","","      if( typeof listener !== 'function' ) {","        // Channel.logger.error( this.constructor.name, ':', arguments.callee.name, ' - callback must be typeof function, not', typeof listener, 'as provided.' )","        if( this.settings.throw ) { throw new Error( 'on only accepts instances of Function' ); } else { return this; }","      }","","      this._events || Channel.call( this );","","      // Break the \"type\" into array parts, and remove any blank values","      type = typeof type === 'string' ? type.split( this._channel.delimiter ).filter( function() { return arguments[0]; }) : type.slice();","","      for( var i = 0, len = type.length; i + 1 &lt; len; i++ ) {","        if( type[i] === '**' &amp;&amp; type[i + 1] === '**' ) { return this; }","      }","","      var tree = this._events;","      var name = type.shift();","","      while( name ) {","","        if( !tree[name] ) {","          tree[name] = {};","        }","","        tree = tree[name];","","        if( type.length === 0 ) {","","          if( !tree._listeners ) {","            tree._listeners = listener;","          } else if( typeof tree._listeners === 'function' ) {","            tree._listeners = [tree._listeners, listener];","          } else if( Array.isArray( tree._listeners ) ) {","","            tree._listeners.push( listener );","","            if( !tree._listeners.warned ) {","","              var m = this.maxListeners;","","              if( typeof this._events.maxListeners !== 'undefined' ) {","                m = this._events.maxListeners;","              }","","              if( m &gt; 0 &amp;&amp; tree._listeners.length &gt; m ) {","                tree._listeners.warned = true;","                console.error( '(node) warning: possible Channel leak.', tree._listeners.length );","              }","","            }","          }","","          return this;","","        }","","        name = type.shift();","","      }","","      return this;","","    },","    /**","     * Add listener that will be triggered on any event","     *","     * @param fn","     * @return {*}","     */","    onAny: function onAny( fn ) {","      // Channel.logger.debug( arguments.callee.name, typeof arguments[0] )","","      if( typeof fn !== 'function' ) {","        throw new Error( 'onAny only accepts instances of Function' );","      }","","      // Add the function to the event listener collection.","      this._events[ '**' ].push( fn );","","      return this;","    },","    off: function off( type, listener ) {","      // Channel.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1] )","","      if( typeof listener !== 'function' ) {","        throw new Error( 'removeListener only takes instances of Function' );","      }","","      var handlers, leafs = [];","","      var ns = typeof type === 'string' ? type.split( this._channel.delimiter ) : type.slice();","","      leafs = this.searchListenerTree( null, ns, this._events, 0 );","","      for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {","        var leaf = leafs[iLeaf];","        handlers = leaf._listeners;","        if( Array.isArray( handlers ) ) {","","          var position = -1;","","          for( var i = 0, length = handlers.length; i &lt; length; i++ ) {","            if( handlers[i] === listener || (handlers[i].listener &amp;&amp; handlers[i].listener === listener) || (handlers[i]._origin &amp;&amp; handlers[i]._origin === listener) ) {","              position = i;","              break;","            }","          }","","          if( position &lt; 0 ) {","            return this;","          }","","          leaf._listeners.splice( position, 1 )","","          if( handlers.length === 0 ) {","            delete leaf._listeners;","          }","","        } else if( handlers === listener || (handlers.listener &amp;&amp; handlers.listener === listener) || (handlers._origin &amp;&amp; handlers._origin === listener) ) {","          delete leaf._listeners;","        }","      }","","      return this;","    },","    offAny: function offAny( fn ) {","      // Channel.logger.debug( arguments.callee.name, typeof arguments[0] )","","      var i = 0, l = 0, fns;","      if( fn &amp;&amp; this._events[ '**' ].length &gt; 0 ) {","        fns = this._events[ '**' ];","        for( i = 0, l = fns.length; i &lt; l; i++ ) {","          if( fn === fns[i] ) {","            fns.splice( i, 1 );","            return this;","          }","        }","      } else {","        this._events[ '**' ] = [];","      }","      return this;","    },","    removeAllListeners: function removeAllListeners( type ) {","      // Channel.logger.debug( arguments.callee.name, arguments[0] );","","      if( arguments.length === 0 ) {","        !this._events || Channel.call( this );","        return this;","      }","","      var ns = typeof type === 'string' ? type.split( this._channel.delimiter ) : type.slice();","      var leafs = this.searchListenerTree( null, ns, this._events, 0 );","","      for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {","        var leaf = leafs[iLeaf];","        leaf._listeners = null;","      }","","      return this;","","    },","    listeners: function listeners( type ) {","      // Channel.logger.debug( arguments.callee.name, arguments[0] );","","      var handlers = [];","      var ns = typeof type === 'string' ? type.split( this._channel.delimiter ) : type.slice();","","      this.searchListenerTree( handlers, ns, this._events, 0 );","","      return handlers;","","    },","    /**","     * Wildcard Event Search","     *","     * @param handlers","     * @param type","     * @param tree","     * @param i","     * @return {Array}","     */","    searchListenerTree: function searchListenerTree( handlers, type, tree, i ) {","    // Channel.logger.debug( arguments.callee.name, handlers, type, typeof tree, i );","","    if( !tree ) {","      return [];","    }","","    var self = this;","","    var listeners = [], leaf, len, branch, xTree, xxTree, isolatedBranch, endReached, typeLength = type.length, currentType = type[i], nextType = type[i + 1];","","    if( i === typeLength &amp;&amp; tree._listeners ) {","","      if( typeof tree._listeners === 'function' ) {","        handlers &amp;&amp; handlers.push( tree._listeners );","        return [tree];","","      } else {","        for( leaf = 0, len = tree._listeners.length; leaf &lt; len; leaf++ ) {","          handlers &amp;&amp; handlers.push( tree._listeners[leaf] );","        }","        return [tree];","      }","","    }","","    if( ( currentType === '*' || currentType === '**' ) || tree[ currentType ] ) {","","      if( currentType === '*' ) {","        for( branch in tree ) {","          if( branch !== '_listeners' &amp;&amp; tree.hasOwnProperty( branch ) ) {","            listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i + 1 ) );","          }","        }","        return listeners;","","      } else if( currentType === '**' ) {","        endReached = (i + 1 === typeLength || (i + 2 === typeLength &amp;&amp; nextType === '*'));","        if( endReached &amp;&amp; tree._listeners ) {","          // The next element has a _listeners, add it to the handlers.","          listeners = listeners.concat( this.searchListenerTree( handlers, type, tree, typeLength ) );","        }","","        for( branch in tree ) {","          if( branch !== '_listeners' &amp;&amp; tree.hasOwnProperty( branch ) ) {","            if( branch === '*' || branch === '**' ) {","              if( tree[branch]._listeners &amp;&amp; !endReached ) {","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], typeLength ) );","              }","              listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i ) );","            } else if( branch === nextType ) {","              listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i + 2 ) );","            } else {","              // No match on this one, shift into the tree but not in the type array.","              listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i ) );","            }","          }","        }","        return listeners;","      }","","      listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[currentType], i + 1 ) );","","    }","","    xTree = tree['*'];","","    if( xTree ) {","      this.searchListenerTree( handlers, type, xTree, i + 1 );","    }","","    xxTree = tree[ '**' ];","","    if( xxTree ) {","      if( i &lt; typeLength ) {","","        if( xxTree._listeners ) {","          this.searchListenerTree( handlers, type, xxTree, typeLength );","        }","","        // Build arrays of matching next branches and others.","        for( branch in xxTree ) {","          if( branch !== '_listeners' &amp;&amp; xxTree.hasOwnProperty( branch ) ) {","            if( branch === nextType ) {","              // We know the next element will match, so jump twice.","              this.searchListenerTree( handlers, type, xxTree[branch], i + 2 );","            } else if( branch === currentType ) {","              // Current node matches, move into the tree.","              this.searchListenerTree( handlers, type, xxTree[branch], i + 1 );","            } else {","              isolatedBranch = {};","              isolatedBranch[branch] = xxTree[branch];","              this.searchListenerTree( handlers, type, { '**': isolatedBranch }, i + 1 );","            }","          }","        }","      } else if( xxTree._listeners ) {","        // We have reached the end and still on a '**'","        this.searchListenerTree( handlers, type, xxTree, typeLength );","      } else if( xxTree['*'] &amp;&amp; xxTree['*']._listeners ) {","        this.searchListenerTree( handlers, type, xxTree['*'], typeLength );","      }","    }","","    return listeners;","","    },","    subscribe: require( 'abstract' ).utility.noop,","    unsubscribe: require( 'abstract' ).utility.noop","  });","","  // Instantiate Channel","  Channel.defineInstance( function createChannel( config ) {","    var Instance = this;","","    Instance.listenerTree = {};","    Instance.wildcard = Channel.get( 'defaults.wildcard', true );","    Instance.maxListeners = Channel.get( 'defaults.maxListeners', 100 );","    Instance.delimiter = Channel.get( 'defaults.delimiter', '.' );","","    //Instance.set( 'emitter', config );","","    return this;","","  });","","});"];

@@ -26,19 +26,109 @@
             "namespaces": {},
             "tag": "module",
             "file": "lib/object-channel.js",
-            "line": 2,
-            "description": "Object Channels\n\nCreate EventEmitter channels.",
+            "line": 1,
+            "description": "Object Channels\n\nCreate EventChannel channels.",
             "version": "0.0.3",
             "author": "potanin@UD",
             "is_constructor": 1
         }
     },
     "classes": {},
-    "classitems": [],
+    "classitems": [
+        {
+            "file": "lib/object-channel.js",
+            "line": 24,
+            "description": "Set Defaults",
+            "params": [
+                {
+                    "name": "defaults",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Instance.",
+                "type": "Object"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-channel.js",
+            "line": 33,
+            "description": "Add Event wrappers to an Object's properties",
+            "itemtype": "method",
+            "name": "eventify",
+            "chainable": 1,
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-channel.js",
+            "line": 231,
+            "description": "Add listener that will be triggered on any event",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-channel.js",
+            "line": 340,
+            "description": "Wildcard Event Search",
+            "params": [
+                {
+                    "name": "handlers",
+                    "description": ""
+                },
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "tree",
+                    "description": ""
+                },
+                {
+                    "name": "i",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "",
+            "module": "object-channel"
+        }
+    ],
     "warnings": [
         {
             "message": "unknown tag: version",
-            "line": " lib/object-channel.js:2"
+            "line": " lib/object-channel.js:1"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-channel.js:24"
+        },
+        {
+            "message": "Missing item type\nSet Defaults",
+            "line": " lib/object-channel.js:24"
+        },
+        {
+            "message": "Missing item type\nAdd listener that will be triggered on any event",
+            "line": " lib/object-channel.js:231"
+        },
+        {
+            "message": "Missing item type\nWildcard Event Search",
+            "line": " lib/object-channel.js:340"
         }
     ]
 }
