@@ -32,7 +32,6 @@ module.exports = {
 
       // Prototypal Methods
       channels.prototype.should.have.property( 'on' );
-      channels.prototype.should.have.property( 'onAny' );
 
     },
 
@@ -41,7 +40,6 @@ module.exports = {
 
       instance.should.have.property( 'mixin' );
       instance.should.have.property( 'on' );
-      instance.should.have.property( 'onAny' );
       instance.should.have.property( 'off' );
       instance.should.have.property( 'emit' );
       instance.should.have.property( 'emit' );
