@@ -7,8 +7,8 @@
         "logo": "http://a3d72a45d111006ec192-ec5b80a12b0b09b4d52373336afb4254.r80.cf1.rackcdn.com/usability-dynamics.png"
     },
     "files": {
-        "lib/object-channel.js": {
-            "name": "lib/object-channel.js",
+        "lib/object-emitter.js": {
+            "name": "lib/object-emitter.js",
             "modules": {
                 "object-channel": 1
             },
@@ -25,7 +25,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "lib/object-channel.js",
+            "file": "lib/object-emitter.js",
             "line": 1,
             "description": "Object Channels\n\nCreate EventChannel channels.",
             "version": "0.0.3",
@@ -36,75 +36,59 @@
     "classes": {},
     "classitems": [
         {
-            "file": "lib/object-channel.js",
-            "line": 24,
-            "description": "Set Defaults",
+            "file": "lib/object-emitter.js",
+            "line": 25,
+            "description": "Instance Properties",
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 31,
+            "description": "Include Instantiated ClusterEmitter",
             "params": [
                 {
-                    "name": "defaults",
-                    "description": ""
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
                 }
             ],
             "return": {
-                "description": "Instance.",
+                "description": "",
                 "type": "Object"
             },
             "class": "",
             "module": "object-channel"
         },
         {
-            "file": "lib/object-channel.js",
-            "line": 33,
-            "description": "Add Event wrappers to an Object's properties",
-            "itemtype": "method",
-            "name": "eventify",
-            "chainable": 1,
-            "class": "",
-            "module": "object-channel"
-        },
-        {
-            "file": "lib/object-channel.js",
-            "line": 231,
-            "description": "Add listener that will be triggered on any event",
+            "file": "lib/object-emitter.js",
+            "line": 64,
+            "description": "Mixin the Emitter properties.",
             "params": [
                 {
-                    "name": "fn",
-                    "description": ""
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
                 }
             ],
             "return": {
                 "description": "",
-                "type": "*"
+                "type": "Object"
             },
             "class": "",
             "module": "object-channel"
         },
         {
-            "file": "lib/object-channel.js",
-            "line": 340,
-            "description": "Wildcard Event Search",
-            "params": [
-                {
-                    "name": "handlers",
-                    "description": ""
-                },
-                {
-                    "name": "type",
-                    "description": ""
-                },
-                {
-                    "name": "tree",
-                    "description": ""
-                },
-                {
-                    "name": "i",
-                    "description": ""
-                }
-            ],
-            "return": {
-                "description": "",
-                "type": "Array"
-            },
+            "file": "lib/object-emitter.js",
+            "line": 110,
+            "description": "Constructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 494,
+            "description": "Emitter Constructor.",
             "class": "",
             "module": "object-channel"
         }
@@ -112,23 +96,27 @@
     "warnings": [
         {
             "message": "unknown tag: version",
-            "line": " lib/object-channel.js:1"
+            "line": " lib/object-emitter.js:1"
         },
         {
-            "message": "replacing incorrect tag: returns with return",
-            "line": " lib/object-channel.js:24"
+            "message": "Missing item type\nInstance Properties",
+            "line": " lib/object-emitter.js:25"
         },
         {
-            "message": "Missing item type\nSet Defaults",
-            "line": " lib/object-channel.js:24"
+            "message": "Missing item type\nInclude Instantiated ClusterEmitter",
+            "line": " lib/object-emitter.js:31"
         },
         {
-            "message": "Missing item type\nAdd listener that will be triggered on any event",
-            "line": " lib/object-channel.js:231"
+            "message": "Missing item type\nMixin the Emitter properties.",
+            "line": " lib/object-emitter.js:64"
         },
         {
-            "message": "Missing item type\nWildcard Event Search",
-            "line": " lib/object-channel.js:340"
+            "message": "Missing item type\nConstructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
+            "line": " lib/object-emitter.js:110"
+        },
+        {
+            "message": "Missing item type\nEmitter Constructor.",
+            "line": " lib/object-emitter.js:494"
         }
     ]
 }

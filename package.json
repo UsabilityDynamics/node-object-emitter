@@ -1,5 +1,5 @@
 {
-  "name": "object-channel",
+  "name": "object-emitter",
   "description": "Object Channel event emitter.",
   "author": {
     "name": "Usability Dynamics",
@@ -32,10 +32,10 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UsabilityDynamics/object-channel.git"
+    "url": "https://github.com/UsabilityDynamics/object-emitter.git"
   },
   "bugs": {
-    "url": "https://github.com/UsabilityDynamics/object-channel/issues"
+    "url": "https://github.com/UsabilityDynamics/object-emitter/issues"
   },
   "dependencies": {
     "abstract": "*",
@@ -49,5 +49,5 @@
   "scripts": {
     "test": "make test"
   },
-  "readmeFilename": "Readme.md"
+  "readmeFilename": "readme.md"
 }

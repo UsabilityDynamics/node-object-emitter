@@ -546,7 +546,7 @@ require( &#x27;abstract&#x27; ).createModel( function Channel( Channel, prototyp
   });
 
   // Instantiate Channel
-  Channel.defineInstance( function createChannel( config ) {
+  Channel.defineConstructor( function createChannel( config ) {
     var Instance = this;
 
     Instance.listenerTree = {};

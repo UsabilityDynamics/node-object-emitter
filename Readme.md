@@ -1,5 +1,7 @@
 ## Overview
 
+Note: This is a beta version. Some of the Stream-esque methods will not work as expected yet.
+
 Based on the EventEmitter2 library.
 Notable differences with EventEmitter2 library:
 

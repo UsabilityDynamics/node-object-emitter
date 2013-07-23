@@ -13,7 +13,7 @@ module.exports = {
     module.noop = function() {}
   },
 
-  'Object Channels API': {
+  'Object Emitter API': {
 
     'has expected methods': function() {
       var channels = require( '../' );
@@ -46,30 +46,27 @@ module.exports = {
 
     },
 
-    'method': {
+    'on() method is chainable.': function() {
+      //require( '../' ).create().on( 'noop', console.log ).should.have.property( 'emit' );
+    },
 
-      'on() is chainable.': function() {
-        //require( '../' ).create().on( 'noop', module.noop ).should.have.property( 'emit' );
-      },
+    'off() method is chainable.': function() {
+      //require( '../' ).create().off( 'noop', module.noop ).should.have.property( 'emit' );
+    },
 
-      'off() is chainable.': function() {
-        //require( '../' ).create().off( 'noop', module.noop ).should.have.property( 'emit' );
-      },
+    'emit() method is chainable.': function() {
+      //require( '../' ).create().emit( 'noop', module.noop ).should.have.property( 'emit' );
+    },
 
-      'emit() is chainable.': function() {
-        //require( '../' ).create().emit( 'noop', module.noop ).should.have.property( 'emit' );
-      },
+    'emit() method works.': function( done ) {
+      return done();
 
-      'emit() works.': function( done ) {
-        return done();
+      require( '../' ).create().on( 'ping', function( data ) {
+        data.should.equal( 'ding' );
+        this.should.have.property( 'event', 'ping' );
+        done()
+      }).emit( 'ping', 'ding' );
 
-        require( '../' ).create().on( 'ping', function( data ) {
-          data.should.equal( 'ding' );
-          this.should.have.property( 'event', 'ping' );
-          done()
-        }).emit( 'ping', 'ding' );
-
-      }
     }
 
   }
