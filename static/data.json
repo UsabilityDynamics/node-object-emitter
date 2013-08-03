@@ -87,7 +87,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 494,
+            "line": 500,
             "description": "Emitter Constructor.",
             "class": "",
             "module": "object-channel"
@@ -116,7 +116,7 @@
         },
         {
             "message": "Missing item type\nEmitter Constructor.",
-            "line": " lib/object-emitter.js:494"
+            "line": " lib/object-emitter.js:500"
         }
     ]
 }

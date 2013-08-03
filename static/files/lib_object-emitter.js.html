@@ -133,7 +133,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
         for( var key in Instance ) {
 
           Object.defineProperty( obj, key, {
-            value: Instance[ key ],
+            value: obj[ key ] || Instance[ key ],
             enumerable: false,
             writable: true,
             configurable: true
@@ -160,7 +160,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
         for( var key in ObjectEmitter.prototype ) {
 
           Object.defineProperty( obj, key, {
-            value: ObjectEmitter.prototype[ key ],
+            value: obj[ key ] || ObjectEmitter.prototype[ key ],
             enumerable: false,
             writable: true,
             configurable: true
@@ -240,7 +240,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
         this._events = {};
       }
 
-      var type = arguments[0] &amp;&amp; &#x27;object&#x27; === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this.get( &#x27;emitter.delimiter&#x27; ) ) : arguments[0];
+      var type = arguments[0] &amp;&amp; &#x27;object&#x27; === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ) : arguments[0];
 
       // Loop through the ** functions and invoke them.
       if( this._events[ &#x27;**&#x27; ] &amp;&amp; this._events[ &#x27;**&#x27; ].length ) {
@@ -262,7 +262,12 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
 
       var handler = [];
 
-      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27; ) ) : type.slice();
+      if( &#x27;undefined&#x27; === typeof type ) {
+        console.error( &#x27;type is undefined&#x27; );
+        return this;
+      }
+
+      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ) : type.slice();
 
       if( !this.searchListenerTree ) {
         console.error( &#x27;Missing searchListenerTree()&#x27; );;
@@ -270,6 +275,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
       }
 
       this.searchListenerTree( handler, ns, this._events, 0 );
+
       if( typeof handler === &#x27;function&#x27; ) {
         //// ObjectEmitter.logger.debug( &#x27;%s() handler %s IS a function&#x27;, arguments.callee.name, type );
         this.event = type;
@@ -327,7 +333,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
       this._events || ObjectEmitter.call( this );
 
       // Break the &quot;type&quot; into array parts, and remove any blank values
-      type = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27; ) ).filter( function() { return arguments[0]; }) : type.slice();
+      type = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ).filter( function() { return arguments[0]; }) : type.slice();
 
       for( var i = 0, len = type.length; i + 1 &lt; len; i++ ) {
         if( type[i] === &#x27;**&#x27; &amp;&amp; type[i + 1] === &#x27;**&#x27; ) { return this; }
@@ -390,7 +396,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
 
       var handlers, leafs = [];
 
-      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27; ) ) : type.slice();
+      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ) : type.slice();
 
       leafs = this.searchListenerTree( null, ns, this._events, 0 );
 
@@ -432,7 +438,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
         return this;
       }
 
-      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27; ) ) : type.slice();
+      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ) : type.slice();
       var leafs = this.searchListenerTree( null, ns, this._events, 0 );
 
       for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {
@@ -447,7 +453,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
       // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] );
 
       var handlers = [];
-      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27; ) ) : type.slice();
+      var ns = typeof type === &#x27;string&#x27; ? type.split( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ) : type.slice();
 
       this.searchListenerTree( handlers, ns, this._events, 0 );
 
