@@ -1,5 +1,6 @@
 {
   "name": "object-emitter",
+  "version": "0.0.3",
   "description": "Object Channel event emitter.",
   "author": {
     "name": "Usability Dynamics",
@@ -29,7 +30,6 @@
     "observe",
     "harmony"
   ],
-  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/UsabilityDynamics/object-emitter.git"
