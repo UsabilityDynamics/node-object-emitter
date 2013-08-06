@@ -80,14 +80,14 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 109,
+            "line": 120,
             "description": "Constructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
             "class": "",
             "module": "object-channel"
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 499,
+            "line": 510,
             "description": "Emitter Constructor.",
             "class": "",
             "module": "object-channel"
@@ -112,11 +112,11 @@
         },
         {
             "message": "Missing item type\nConstructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
-            "line": " lib/object-emitter.js:109"
+            "line": " lib/object-emitter.js:120"
         },
         {
             "message": "Missing item type\nEmitter Constructor.",
-            "line": " lib/object-emitter.js:499"
+            "line": " lib/object-emitter.js:510"
         }
     ]
 }

@@ -6,7 +6,7 @@ HTML_FILE = static/coverage.html
 test-all: clean document lib-cov test-code
 
 document:
-	yuidoc
+	yuidoc -q
 
 test-code:
 	@NODE_ENV=test mocha \

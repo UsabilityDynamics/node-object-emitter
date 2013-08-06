@@ -158,12 +158,23 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
 
         for( var key in ObjectEmitter.prototype ) {
 
-          Object.defineProperty( obj, key, {
-            value: obj[ key ] || ObjectEmitter.prototype[ key ],
-            enumerable: false,
-            writable: true,
-            configurable: true
-          });
+          var descriptor = Object.getOwnPropertyDescriptor( obj, key );
+
+          // Detect if a property is not configurable.
+          if( descriptor &amp;&amp; !descriptor.configurable ) {
+            break;
+          }
+
+          try {
+
+            Object.defineProperty( obj, key, {
+              value: obj[ key ] || ObjectEmitter.prototype[ key ],
+              enumerable: false,
+              writable: true,
+              configurable: true
+            });
+
+          } catch( error ) {}
 
         }
 
