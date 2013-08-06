@@ -45,7 +45,7 @@
         {
             "file": "lib/object-emitter.js",
             "line": 31,
-            "description": "Include Instantiated ClusterEmitter",
+            "description": "Include Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
             "params": [
                 {
                     "name": "obj",
@@ -62,7 +62,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 64,
+            "line": 63,
             "description": "Mixin the Emitter properties.",
             "params": [
                 {
@@ -80,14 +80,14 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 110,
+            "line": 109,
             "description": "Constructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
             "class": "",
             "module": "object-channel"
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 500,
+            "line": 499,
             "description": "Emitter Constructor.",
             "class": "",
             "module": "object-channel"
@@ -103,20 +103,20 @@
             "line": " lib/object-emitter.js:25"
         },
         {
-            "message": "Missing item type\nInclude Instantiated ClusterEmitter",
+            "message": "Missing item type\nInclude Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
             "line": " lib/object-emitter.js:31"
         },
         {
             "message": "Missing item type\nMixin the Emitter properties.",
-            "line": " lib/object-emitter.js:64"
+            "line": " lib/object-emitter.js:63"
         },
         {
             "message": "Missing item type\nConstructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
-            "line": " lib/object-emitter.js:110"
+            "line": " lib/object-emitter.js:109"
         },
         {
             "message": "Missing item type\nEmitter Constructor.",
-            "line": " lib/object-emitter.js:500"
+            "line": " lib/object-emitter.js:499"
         }
     ]
 }

@@ -119,21 +119,20 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
       /**
        * Include Instantiated ClusterEmitter
        *
+       * If object not provided will bind to context.
+       *
        * @param {Object} obj
        * @return {Object}
        */
       value: function include( obj ) {
 
+        var target = obj || this;
         var Instance = new ObjectEmitter.create();
-
-        if( !obj ) {
-          return Instance;
-        }
 
         for( var key in Instance ) {
 
-          Object.defineProperty( obj, key, {
-            value: obj[ key ] || Instance[ key ],
+          Object.defineProperty( target, key, {
+            value: target[ key ] || Instance[ key ],
             enumerable: false,
             writable: true,
             configurable: true
@@ -141,7 +140,7 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
 
         }
 
-        return obj;
+        return target;
 
       },
       enumerable: true,
@@ -256,9 +255,9 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
       }
 
       // If there is no &#x27;error&#x27; event listener then throw.
-      if( type === &#x27;error&#x27; &amp;&amp; !this._events[ &#x27;**&#x27; ].length &amp;&amp; !this._events.error ) {
+      /* if( type === &#x27;error&#x27; &amp;&amp; !this._events[ &#x27;**&#x27; ].length &amp;&amp; !this._events.error ) {
         throw arguments[1] instanceof Error ? arguments[1] : new Error( &quot;Uncaught, unspecified &#x27;error&#x27; event.&quot; );
-      }
+      } */
 
       var handler = [];
 
