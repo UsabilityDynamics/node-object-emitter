@@ -16,7 +16,7 @@ Notable differences with EventEmitter2 library:
   - Emulates Stream functionality and allows event piping via the "pipe" method.
 
 ## Basic Usage
-Create new instance of Object Channels.
+Create new instance of Object Emitter.
 
     require( 'object-emitter' )
       .create({ delimiter: ':' })
@@ -24,7 +24,7 @@ Create new instance of Object Channels.
       .emit( 'ping:one', 'I am ignored.' );  
       .emit( 'ping:two', 'I am not ignored!' );  
 
-Add Object Channels to a new object.
+Add Object Emitter to a new object.
 
     var MyObject = {};
     
