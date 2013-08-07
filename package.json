@@ -1,6 +1,6 @@
 {
   "name": "object-emitter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Object Channel event emitter.",
   "author": {
     "name": "Usability Dynamics",

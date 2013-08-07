@@ -80,14 +80,119 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 120,
+            "line": 125,
             "description": "Constructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
             "class": "",
             "module": "object-channel"
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 510,
+            "line": 254,
+            "description": "Add Listener",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "listener",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 338,
+            "description": "Remove Listener",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "listener",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 390,
+            "description": "Remove All Listeners",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 415,
+            "description": "Get Listeners",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 434,
+            "description": "Search Listener Tree",
+            "params": [
+                {
+                    "name": "handlers",
+                    "description": ""
+                },
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "tree",
+                    "description": ""
+                },
+                {
+                    "name": "i",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 556,
             "description": "Emitter Constructor.",
             "class": "",
             "module": "object-channel"
@@ -97,6 +202,26 @@
         {
             "message": "unknown tag: version",
             "line": " lib/object-emitter.js:1"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:254"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:338"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:390"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:415"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:434"
         },
         {
             "message": "Missing item type\nInstance Properties",
@@ -112,11 +237,31 @@
         },
         {
             "message": "Missing item type\nConstructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
-            "line": " lib/object-emitter.js:120"
+            "line": " lib/object-emitter.js:125"
+        },
+        {
+            "message": "Missing item type\nAdd Listener",
+            "line": " lib/object-emitter.js:254"
+        },
+        {
+            "message": "Missing item type\nRemove Listener",
+            "line": " lib/object-emitter.js:338"
+        },
+        {
+            "message": "Missing item type\nRemove All Listeners",
+            "line": " lib/object-emitter.js:390"
+        },
+        {
+            "message": "Missing item type\nGet Listeners",
+            "line": " lib/object-emitter.js:415"
+        },
+        {
+            "message": "Missing item type\nSearch Listener Tree",
+            "line": " lib/object-emitter.js:434"
         },
         {
             "message": "Missing item type\nEmitter Constructor.",
-            "line": " lib/object-emitter.js:510"
+            "line": " lib/object-emitter.js:556"
         }
     ]
 }
