@@ -18,7 +18,7 @@ Notable differences with EventEmitter2 library:
 ## Basic Usage
 Create new instance of Object Channels.
 
-    require( 'object-channels' )
+    require( 'object-emitter' )
       .create({ delimiter: ':' })
       .on( '*:two', console.log )
       .emit( 'ping:one', 'I am ignored.' );  
@@ -28,7 +28,7 @@ Add Object Channels to a new object.
 
     var MyObject = {};
     
-    require( 'object-channels' ).mixin( MyObject );    
+    require( 'object-emitter' ).mixin( MyObject );    
     
     MyObject
       .on( 'ping', console.log )
@@ -36,7 +36,7 @@ Add Object Channels to a new object.
     
 Extend existing EventEmitter object and utilize wildcards.
 
-    require( 'object-channels' ).mixin( process );    
+    require( 'object-emitter' ).mixin( process );    
     process.on( '*.ping', console.log );
     process.emit( 'ding', 'I am ignored.' );
     process.emit( 'ding.ping', 'I am not ignored!' );
@@ -44,7 +44,7 @@ Extend existing EventEmitter object and utilize wildcards.
 Pipe Request stream to the console.
 
     app.get( '/pipe', function( req, res, next ) {
-      require( 'object-channels' ).mixin( req ).pipe( process.stdout );         
+      require( 'object-emitter' ).mixin( req ).pipe( process.stdout );         
       next();      
     });
 
