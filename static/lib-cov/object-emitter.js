@@ -15,216 +15,230 @@ if (! _$jscoverage['object-emitter.js']) {
   _$jscoverage['object-emitter.js'][42] = 0;
   _$jscoverage['object-emitter.js'][44] = 0;
   _$jscoverage['object-emitter.js'][46] = 0;
-  _$jscoverage['object-emitter.js'][55] = 0;
-  _$jscoverage['object-emitter.js'][71] = 0;
-  _$jscoverage['object-emitter.js'][73] = 0;
-  _$jscoverage['object-emitter.js'][76] = 0;
-  _$jscoverage['object-emitter.js'][77] = 0;
-  _$jscoverage['object-emitter.js'][80] = 0;
-  _$jscoverage['object-emitter.js'][82] = 0;
+  _$jscoverage['object-emitter.js'][56] = 0;
+  _$jscoverage['object-emitter.js'][57] = 0;
+  _$jscoverage['object-emitter.js'][60] = 0;
+  _$jscoverage['object-emitter.js'][78] = 0;
+  _$jscoverage['object-emitter.js'][79] = 0;
+  _$jscoverage['object-emitter.js'][81] = 0;
+  _$jscoverage['object-emitter.js'][83] = 0;
+  _$jscoverage['object-emitter.js'][93] = 0;
   _$jscoverage['object-emitter.js'][94] = 0;
-  _$jscoverage['object-emitter.js'][95] = 0;
-  _$jscoverage['object-emitter.js'][98] = 0;
-  _$jscoverage['object-emitter.js'][108] = 0;
-  _$jscoverage['object-emitter.js'][111] = 0;
-  _$jscoverage['object-emitter.js'][114] = 0;
+  _$jscoverage['object-emitter.js'][97] = 0;
+  _$jscoverage['object-emitter.js'][113] = 0;
   _$jscoverage['object-emitter.js'][115] = 0;
-  _$jscoverage['object-emitter.js'][120] = 0;
-  _$jscoverage['object-emitter.js'][132] = 0;
+  _$jscoverage['object-emitter.js'][118] = 0;
+  _$jscoverage['object-emitter.js'][119] = 0;
+  _$jscoverage['object-emitter.js'][122] = 0;
+  _$jscoverage['object-emitter.js'][124] = 0;
+  _$jscoverage['object-emitter.js'][136] = 0;
   _$jscoverage['object-emitter.js'][137] = 0;
-  _$jscoverage['object-emitter.js'][142] = 0;
-  _$jscoverage['object-emitter.js'][144] = 0;
-  _$jscoverage['object-emitter.js'][145] = 0;
-  _$jscoverage['object-emitter.js'][148] = 0;
+  _$jscoverage['object-emitter.js'][140] = 0;
   _$jscoverage['object-emitter.js'][150] = 0;
-  _$jscoverage['object-emitter.js'][151] = 0;
-  _$jscoverage['object-emitter.js'][154] = 0;
-  _$jscoverage['object-emitter.js'][155] = 0;
+  _$jscoverage['object-emitter.js'][153] = 0;
+  _$jscoverage['object-emitter.js'][156] = 0;
   _$jscoverage['object-emitter.js'][157] = 0;
-  _$jscoverage['object-emitter.js'][159] = 0;
-  _$jscoverage['object-emitter.js'][161] = 0;
-  _$jscoverage['object-emitter.js'][166] = 0;
-  _$jscoverage['object-emitter.js'][167] = 0;
-  _$jscoverage['object-emitter.js'][170] = 0;
-  _$jscoverage['object-emitter.js'][173] = 0;
+  _$jscoverage['object-emitter.js'][162] = 0;
   _$jscoverage['object-emitter.js'][174] = 0;
-  _$jscoverage['object-emitter.js'][175] = 0;
-  _$jscoverage['object-emitter.js'][176] = 0;
-  _$jscoverage['object-emitter.js'][177] = 0;
-  _$jscoverage['object-emitter.js'][178] = 0;
-  _$jscoverage['object-emitter.js'][180] = 0;
-  _$jscoverage['object-emitter.js'][181] = 0;
-  _$jscoverage['object-emitter.js'][183] = 0;
+  _$jscoverage['object-emitter.js'][179] = 0;
   _$jscoverage['object-emitter.js'][184] = 0;
-  _$jscoverage['object-emitter.js'][185] = 0;
   _$jscoverage['object-emitter.js'][186] = 0;
+  _$jscoverage['object-emitter.js'][187] = 0;
+  _$jscoverage['object-emitter.js'][190] = 0;
+  _$jscoverage['object-emitter.js'][192] = 0;
+  _$jscoverage['object-emitter.js'][193] = 0;
+  _$jscoverage['object-emitter.js'][196] = 0;
   _$jscoverage['object-emitter.js'][197] = 0;
   _$jscoverage['object-emitter.js'][199] = 0;
-  _$jscoverage['object-emitter.js'][200] = 0;
   _$jscoverage['object-emitter.js'][201] = 0;
-  _$jscoverage['object-emitter.js'][204] = 0;
-  _$jscoverage['object-emitter.js'][206] = 0;
-  _$jscoverage['object-emitter.js'][207] = 0;
+  _$jscoverage['object-emitter.js'][203] = 0;
   _$jscoverage['object-emitter.js'][208] = 0;
-  _$jscoverage['object-emitter.js'][211] = 0;
+  _$jscoverage['object-emitter.js'][209] = 0;
   _$jscoverage['object-emitter.js'][213] = 0;
-  _$jscoverage['object-emitter.js'][215] = 0;
-  _$jscoverage['object-emitter.js'][216] = 0;
+  _$jscoverage['object-emitter.js'][214] = 0;
   _$jscoverage['object-emitter.js'][217] = 0;
-  _$jscoverage['object-emitter.js'][218] = 0;
   _$jscoverage['object-emitter.js'][219] = 0;
-  _$jscoverage['object-emitter.js'][221] = 0;
-  _$jscoverage['object-emitter.js'][222] = 0;
+  _$jscoverage['object-emitter.js'][220] = 0;
   _$jscoverage['object-emitter.js'][224] = 0;
-  _$jscoverage['object-emitter.js'][225] = 0;
+  _$jscoverage['object-emitter.js'][226] = 0;
+  _$jscoverage['object-emitter.js'][227] = 0;
   _$jscoverage['object-emitter.js'][228] = 0;
   _$jscoverage['object-emitter.js'][229] = 0;
   _$jscoverage['object-emitter.js'][230] = 0;
-  _$jscoverage['object-emitter.js'][231] = 0;
+  _$jscoverage['object-emitter.js'][232] = 0;
   _$jscoverage['object-emitter.js'][233] = 0;
+  _$jscoverage['object-emitter.js'][235] = 0;
   _$jscoverage['object-emitter.js'][236] = 0;
+  _$jscoverage['object-emitter.js'][237] = 0;
   _$jscoverage['object-emitter.js'][238] = 0;
-  _$jscoverage['object-emitter.js'][239] = 0;
-  _$jscoverage['object-emitter.js'][240] = 0;
-  _$jscoverage['object-emitter.js'][241] = 0;
-  _$jscoverage['object-emitter.js'][243] = 0;
-  _$jscoverage['object-emitter.js'][244] = 0;
-  _$jscoverage['object-emitter.js'][245] = 0;
-  _$jscoverage['object-emitter.js'][246] = 0;
-  _$jscoverage['object-emitter.js'][250] = 0;
+  _$jscoverage['object-emitter.js'][249] = 0;
+  _$jscoverage['object-emitter.js'][251] = 0;
+  _$jscoverage['object-emitter.js'][252] = 0;
+  _$jscoverage['object-emitter.js'][253] = 0;
+  _$jscoverage['object-emitter.js'][256] = 0;
+  _$jscoverage['object-emitter.js'][258] = 0;
+  _$jscoverage['object-emitter.js'][259] = 0;
+  _$jscoverage['object-emitter.js'][260] = 0;
+  _$jscoverage['object-emitter.js'][263] = 0;
   _$jscoverage['object-emitter.js'][265] = 0;
-  _$jscoverage['object-emitter.js'][266] = 0;
   _$jscoverage['object-emitter.js'][267] = 0;
+  _$jscoverage['object-emitter.js'][268] = 0;
+  _$jscoverage['object-emitter.js'][269] = 0;
   _$jscoverage['object-emitter.js'][270] = 0;
+  _$jscoverage['object-emitter.js'][271] = 0;
   _$jscoverage['object-emitter.js'][273] = 0;
   _$jscoverage['object-emitter.js'][274] = 0;
-  _$jscoverage['object-emitter.js'][275] = 0;
-  _$jscoverage['object-emitter.js'][279] = 0;
+  _$jscoverage['object-emitter.js'][276] = 0;
+  _$jscoverage['object-emitter.js'][277] = 0;
+  _$jscoverage['object-emitter.js'][280] = 0;
+  _$jscoverage['object-emitter.js'][281] = 0;
   _$jscoverage['object-emitter.js'][282] = 0;
-  _$jscoverage['object-emitter.js'][284] = 0;
+  _$jscoverage['object-emitter.js'][283] = 0;
   _$jscoverage['object-emitter.js'][285] = 0;
-  _$jscoverage['object-emitter.js'][286] = 0;
-  _$jscoverage['object-emitter.js'][289] = 0;
+  _$jscoverage['object-emitter.js'][288] = 0;
   _$jscoverage['object-emitter.js'][290] = 0;
+  _$jscoverage['object-emitter.js'][291] = 0;
   _$jscoverage['object-emitter.js'][292] = 0;
-  _$jscoverage['object-emitter.js'][294] = 0;
+  _$jscoverage['object-emitter.js'][293] = 0;
   _$jscoverage['object-emitter.js'][295] = 0;
+  _$jscoverage['object-emitter.js'][296] = 0;
+  _$jscoverage['object-emitter.js'][297] = 0;
   _$jscoverage['object-emitter.js'][298] = 0;
-  _$jscoverage['object-emitter.js'][300] = 0;
   _$jscoverage['object-emitter.js'][302] = 0;
-  _$jscoverage['object-emitter.js'][303] = 0;
-  _$jscoverage['object-emitter.js'][304] = 0;
-  _$jscoverage['object-emitter.js'][305] = 0;
-  _$jscoverage['object-emitter.js'][306] = 0;
-  _$jscoverage['object-emitter.js'][308] = 0;
-  _$jscoverage['object-emitter.js'][310] = 0;
-  _$jscoverage['object-emitter.js'][312] = 0;
-  _$jscoverage['object-emitter.js'][314] = 0;
-  _$jscoverage['object-emitter.js'][315] = 0;
-  _$jscoverage['object-emitter.js'][318] = 0;
-  _$jscoverage['object-emitter.js'][319] = 0;
-  _$jscoverage['object-emitter.js'][320] = 0;
+  _$jscoverage['object-emitter.js'][316] = 0;
+  _$jscoverage['object-emitter.js'][317] = 0;
+  _$jscoverage['object-emitter.js'][321] = 0;
+  _$jscoverage['object-emitter.js'][322] = 0;
+  _$jscoverage['object-emitter.js'][323] = 0;
   _$jscoverage['object-emitter.js'][326] = 0;
+  _$jscoverage['object-emitter.js'][329] = 0;
   _$jscoverage['object-emitter.js'][330] = 0;
-  _$jscoverage['object-emitter.js'][334] = 0;
+  _$jscoverage['object-emitter.js'][331] = 0;
+  _$jscoverage['object-emitter.js'][335] = 0;
+  _$jscoverage['object-emitter.js'][338] = 0;
+  _$jscoverage['object-emitter.js'][340] = 0;
+  _$jscoverage['object-emitter.js'][341] = 0;
+  _$jscoverage['object-emitter.js'][342] = 0;
+  _$jscoverage['object-emitter.js'][345] = 0;
+  _$jscoverage['object-emitter.js'][346] = 0;
   _$jscoverage['object-emitter.js'][348] = 0;
-  _$jscoverage['object-emitter.js'][349] = 0;
-  _$jscoverage['object-emitter.js'][352] = 0;
+  _$jscoverage['object-emitter.js'][350] = 0;
+  _$jscoverage['object-emitter.js'][351] = 0;
   _$jscoverage['object-emitter.js'][354] = 0;
   _$jscoverage['object-emitter.js'][356] = 0;
   _$jscoverage['object-emitter.js'][358] = 0;
   _$jscoverage['object-emitter.js'][359] = 0;
   _$jscoverage['object-emitter.js'][360] = 0;
   _$jscoverage['object-emitter.js'][361] = 0;
-  _$jscoverage['object-emitter.js'][363] = 0;
-  _$jscoverage['object-emitter.js'][365] = 0;
+  _$jscoverage['object-emitter.js'][362] = 0;
+  _$jscoverage['object-emitter.js'][364] = 0;
   _$jscoverage['object-emitter.js'][366] = 0;
-  _$jscoverage['object-emitter.js'][367] = 0;
   _$jscoverage['object-emitter.js'][368] = 0;
-  _$jscoverage['object-emitter.js'][372] = 0;
-  _$jscoverage['object-emitter.js'][373] = 0;
+  _$jscoverage['object-emitter.js'][370] = 0;
+  _$jscoverage['object-emitter.js'][371] = 0;
+  _$jscoverage['object-emitter.js'][374] = 0;
+  _$jscoverage['object-emitter.js'][375] = 0;
   _$jscoverage['object-emitter.js'][376] = 0;
-  _$jscoverage['object-emitter.js'][378] = 0;
-  _$jscoverage['object-emitter.js'][379] = 0;
   _$jscoverage['object-emitter.js'][382] = 0;
-  _$jscoverage['object-emitter.js'][383] = 0;
-  _$jscoverage['object-emitter.js'][387] = 0;
-  _$jscoverage['object-emitter.js'][398] = 0;
-  _$jscoverage['object-emitter.js'][399] = 0;
-  _$jscoverage['object-emitter.js'][400] = 0;
-  _$jscoverage['object-emitter.js'][403] = 0;
+  _$jscoverage['object-emitter.js'][386] = 0;
+  _$jscoverage['object-emitter.js'][390] = 0;
   _$jscoverage['object-emitter.js'][404] = 0;
-  _$jscoverage['object-emitter.js'][406] = 0;
-  _$jscoverage['object-emitter.js'][407] = 0;
+  _$jscoverage['object-emitter.js'][405] = 0;
   _$jscoverage['object-emitter.js'][408] = 0;
-  _$jscoverage['object-emitter.js'][411] = 0;
+  _$jscoverage['object-emitter.js'][410] = 0;
+  _$jscoverage['object-emitter.js'][412] = 0;
+  _$jscoverage['object-emitter.js'][414] = 0;
+  _$jscoverage['object-emitter.js'][415] = 0;
+  _$jscoverage['object-emitter.js'][416] = 0;
+  _$jscoverage['object-emitter.js'][417] = 0;
+  _$jscoverage['object-emitter.js'][419] = 0;
+  _$jscoverage['object-emitter.js'][421] = 0;
+  _$jscoverage['object-emitter.js'][422] = 0;
+  _$jscoverage['object-emitter.js'][423] = 0;
   _$jscoverage['object-emitter.js'][424] = 0;
-  _$jscoverage['object-emitter.js'][425] = 0;
-  _$jscoverage['object-emitter.js'][427] = 0;
+  _$jscoverage['object-emitter.js'][428] = 0;
   _$jscoverage['object-emitter.js'][429] = 0;
-  _$jscoverage['object-emitter.js'][445] = 0;
-  _$jscoverage['object-emitter.js'][446] = 0;
-  _$jscoverage['object-emitter.js'][449] = 0;
-  _$jscoverage['object-emitter.js'][451] = 0;
-  _$jscoverage['object-emitter.js'][453] = 0;
+  _$jscoverage['object-emitter.js'][432] = 0;
+  _$jscoverage['object-emitter.js'][434] = 0;
+  _$jscoverage['object-emitter.js'][435] = 0;
+  _$jscoverage['object-emitter.js'][438] = 0;
+  _$jscoverage['object-emitter.js'][439] = 0;
+  _$jscoverage['object-emitter.js'][443] = 0;
+  _$jscoverage['object-emitter.js'][454] = 0;
   _$jscoverage['object-emitter.js'][455] = 0;
   _$jscoverage['object-emitter.js'][456] = 0;
-  _$jscoverage['object-emitter.js'][457] = 0;
+  _$jscoverage['object-emitter.js'][459] = 0;
   _$jscoverage['object-emitter.js'][460] = 0;
-  _$jscoverage['object-emitter.js'][461] = 0;
+  _$jscoverage['object-emitter.js'][462] = 0;
   _$jscoverage['object-emitter.js'][463] = 0;
-  _$jscoverage['object-emitter.js'][468] = 0;
-  _$jscoverage['object-emitter.js'][470] = 0;
-  _$jscoverage['object-emitter.js'][471] = 0;
-  _$jscoverage['object-emitter.js'][472] = 0;
-  _$jscoverage['object-emitter.js'][473] = 0;
-  _$jscoverage['object-emitter.js'][476] = 0;
-  _$jscoverage['object-emitter.js'][478] = 0;
-  _$jscoverage['object-emitter.js'][479] = 0;
+  _$jscoverage['object-emitter.js'][464] = 0;
+  _$jscoverage['object-emitter.js'][467] = 0;
   _$jscoverage['object-emitter.js'][480] = 0;
-  _$jscoverage['object-emitter.js'][482] = 0;
+  _$jscoverage['object-emitter.js'][481] = 0;
+  _$jscoverage['object-emitter.js'][483] = 0;
   _$jscoverage['object-emitter.js'][485] = 0;
-  _$jscoverage['object-emitter.js'][486] = 0;
-  _$jscoverage['object-emitter.js'][487] = 0;
-  _$jscoverage['object-emitter.js'][488] = 0;
-  _$jscoverage['object-emitter.js'][489] = 0;
-  _$jscoverage['object-emitter.js'][491] = 0;
-  _$jscoverage['object-emitter.js'][492] = 0;
-  _$jscoverage['object-emitter.js'][493] = 0;
-  _$jscoverage['object-emitter.js'][496] = 0;
-  _$jscoverage['object-emitter.js'][500] = 0;
-  _$jscoverage['object-emitter.js'][503] = 0;
+  _$jscoverage['object-emitter.js'][501] = 0;
+  _$jscoverage['object-emitter.js'][502] = 0;
+  _$jscoverage['object-emitter.js'][505] = 0;
   _$jscoverage['object-emitter.js'][507] = 0;
   _$jscoverage['object-emitter.js'][509] = 0;
-  _$jscoverage['object-emitter.js'][510] = 0;
+  _$jscoverage['object-emitter.js'][511] = 0;
+  _$jscoverage['object-emitter.js'][512] = 0;
   _$jscoverage['object-emitter.js'][513] = 0;
-  _$jscoverage['object-emitter.js'][515] = 0;
   _$jscoverage['object-emitter.js'][516] = 0;
-  _$jscoverage['object-emitter.js'][518] = 0;
+  _$jscoverage['object-emitter.js'][517] = 0;
   _$jscoverage['object-emitter.js'][519] = 0;
-  _$jscoverage['object-emitter.js'][523] = 0;
   _$jscoverage['object-emitter.js'][524] = 0;
-  _$jscoverage['object-emitter.js'][525] = 0;
+  _$jscoverage['object-emitter.js'][526] = 0;
   _$jscoverage['object-emitter.js'][527] = 0;
   _$jscoverage['object-emitter.js'][528] = 0;
-  _$jscoverage['object-emitter.js'][530] = 0;
+  _$jscoverage['object-emitter.js'][529] = 0;
   _$jscoverage['object-emitter.js'][532] = 0;
-  _$jscoverage['object-emitter.js'][533] = 0;
   _$jscoverage['object-emitter.js'][534] = 0;
+  _$jscoverage['object-emitter.js'][535] = 0;
+  _$jscoverage['object-emitter.js'][536] = 0;
   _$jscoverage['object-emitter.js'][538] = 0;
-  _$jscoverage['object-emitter.js'][540] = 0;
   _$jscoverage['object-emitter.js'][541] = 0;
   _$jscoverage['object-emitter.js'][542] = 0;
-  _$jscoverage['object-emitter.js'][546] = 0;
-  _$jscoverage['object-emitter.js'][560] = 0;
-  _$jscoverage['object-emitter.js'][561] = 0;
+  _$jscoverage['object-emitter.js'][543] = 0;
+  _$jscoverage['object-emitter.js'][544] = 0;
+  _$jscoverage['object-emitter.js'][545] = 0;
+  _$jscoverage['object-emitter.js'][547] = 0;
+  _$jscoverage['object-emitter.js'][548] = 0;
+  _$jscoverage['object-emitter.js'][549] = 0;
+  _$jscoverage['object-emitter.js'][552] = 0;
+  _$jscoverage['object-emitter.js'][556] = 0;
+  _$jscoverage['object-emitter.js'][559] = 0;
   _$jscoverage['object-emitter.js'][563] = 0;
-  _$jscoverage['object-emitter.js'][567] = 0;
+  _$jscoverage['object-emitter.js'][565] = 0;
+  _$jscoverage['object-emitter.js'][566] = 0;
+  _$jscoverage['object-emitter.js'][569] = 0;
+  _$jscoverage['object-emitter.js'][571] = 0;
+  _$jscoverage['object-emitter.js'][572] = 0;
+  _$jscoverage['object-emitter.js'][574] = 0;
+  _$jscoverage['object-emitter.js'][575] = 0;
+  _$jscoverage['object-emitter.js'][579] = 0;
+  _$jscoverage['object-emitter.js'][580] = 0;
+  _$jscoverage['object-emitter.js'][581] = 0;
   _$jscoverage['object-emitter.js'][583] = 0;
   _$jscoverage['object-emitter.js'][584] = 0;
-  _$jscoverage['object-emitter.js'][585] = 0;
   _$jscoverage['object-emitter.js'][586] = 0;
+  _$jscoverage['object-emitter.js'][588] = 0;
+  _$jscoverage['object-emitter.js'][589] = 0;
   _$jscoverage['object-emitter.js'][590] = 0;
+  _$jscoverage['object-emitter.js'][594] = 0;
+  _$jscoverage['object-emitter.js'][596] = 0;
+  _$jscoverage['object-emitter.js'][597] = 0;
+  _$jscoverage['object-emitter.js'][598] = 0;
+  _$jscoverage['object-emitter.js'][602] = 0;
+  _$jscoverage['object-emitter.js'][616] = 0;
+  _$jscoverage['object-emitter.js'][617] = 0;
+  _$jscoverage['object-emitter.js'][619] = 0;
+  _$jscoverage['object-emitter.js'][627] = 0;
+  _$jscoverage['object-emitter.js'][628] = 0;
+  _$jscoverage['object-emitter.js'][629] = 0;
+  _$jscoverage['object-emitter.js'][630] = 0;
+  _$jscoverage['object-emitter.js'][634] = 0;
 }
 _$jscoverage['object-emitter.js'][11]++;
 require("abstract").createModel(module.exports = (function ObjectEmitter() {
@@ -244,7 +258,7 @@ require("abstract").createModel(module.exports = (function ObjectEmitter() {
   _$jscoverage['object-emitter.js'][23]++;
   var _extend = require("util")._extend;
   _$jscoverage['object-emitter.js'][29]++;
-  ObjectEmitter.defineProperties(ObjectEmitter, {include: {value: (function include(obj) {
+  ObjectEmitter.defineProperties(ObjectEmitter, {inject: {value: (function inject(obj) {
   _$jscoverage['object-emitter.js'][41]++;
   var target = obj || this;
   _$jscoverage['object-emitter.js'][42]++;
@@ -252,514 +266,551 @@ require("abstract").createModel(module.exports = (function ObjectEmitter() {
   _$jscoverage['object-emitter.js'][44]++;
   for (var key in Instance) {
     _$jscoverage['object-emitter.js'][46]++;
+    Object.defineProperty(target, key, {value: Instance[key], enumerable: false, writable: true, configurable: true});
+}
+  _$jscoverage['object-emitter.js'][56]++;
+  if (! target._events) {
+    _$jscoverage['object-emitter.js'][57]++;
+    target._events = {};
+  }
+  _$jscoverage['object-emitter.js'][60]++;
+  return target;
+}), enumerable: true, configurable: true, writable: true}, include: {value: (function include(obj) {
+  _$jscoverage['object-emitter.js'][78]++;
+  var target = obj || this;
+  _$jscoverage['object-emitter.js'][79]++;
+  var Instance = new ObjectEmitter.create();
+  _$jscoverage['object-emitter.js'][81]++;
+  for (var key in Instance) {
+    _$jscoverage['object-emitter.js'][83]++;
     Object.defineProperty(target, key, {value: target[key] || Instance[key], enumerable: false, writable: true, configurable: true});
 }
-  _$jscoverage['object-emitter.js'][55]++;
+  _$jscoverage['object-emitter.js'][93]++;
+  if (! target._events) {
+    _$jscoverage['object-emitter.js'][94]++;
+    target._events = {};
+  }
+  _$jscoverage['object-emitter.js'][97]++;
   return target;
 }), enumerable: true, configurable: true, writable: true}, mixin: {value: (function mixin(obj) {
-  _$jscoverage['object-emitter.js'][71]++;
+  _$jscoverage['object-emitter.js'][113]++;
   for (var key in ObjectEmitter.prototype) {
-    _$jscoverage['object-emitter.js'][73]++;
+    _$jscoverage['object-emitter.js'][115]++;
     var descriptor = Object.getOwnPropertyDescriptor(obj, key);
-    _$jscoverage['object-emitter.js'][76]++;
+    _$jscoverage['object-emitter.js'][118]++;
     if (descriptor && ! descriptor.configurable) {
-      _$jscoverage['object-emitter.js'][77]++;
+      _$jscoverage['object-emitter.js'][119]++;
       break;
     }
-    _$jscoverage['object-emitter.js'][80]++;
+    _$jscoverage['object-emitter.js'][122]++;
     try {
-      _$jscoverage['object-emitter.js'][82]++;
+      _$jscoverage['object-emitter.js'][124]++;
       Object.defineProperty(obj, key, {value: obj[key] || ObjectEmitter.prototype[key], enumerable: false, writable: true, configurable: true});
     }
     catch (error) {
     }
 }
-  _$jscoverage['object-emitter.js'][94]++;
+  _$jscoverage['object-emitter.js'][136]++;
   if (! obj._events) {
-    _$jscoverage['object-emitter.js'][95]++;
+    _$jscoverage['object-emitter.js'][137]++;
     obj._events = {};
   }
-  _$jscoverage['object-emitter.js'][98]++;
+  _$jscoverage['object-emitter.js'][140]++;
   return obj;
 }), enumerable: true, configurable: true, writable: true}, eventify: (function eventify(target, namespace, options) {
-  _$jscoverage['object-emitter.js'][108]++;
+  _$jscoverage['object-emitter.js'][150]++;
   ObjectEmitter.extend(target, namespace, options);
-  _$jscoverage['object-emitter.js'][111]++;
+  _$jscoverage['object-emitter.js'][153]++;
   Object.getOwnPropertyName(target).forEach((function (method) {
-  _$jscoverage['object-emitter.js'][114]++;
+  _$jscoverage['object-emitter.js'][156]++;
   if (method !== "on" && method != "emit" && "function" === typeof target[method]) {
-    _$jscoverage['object-emitter.js'][115]++;
+    _$jscoverage['object-emitter.js'][157]++;
     target.on(method, target[method]);
   }
 }));
-  _$jscoverage['object-emitter.js'][120]++;
+  _$jscoverage['object-emitter.js'][162]++;
   return this;
 })});
-  _$jscoverage['object-emitter.js'][132]++;
+  _$jscoverage['object-emitter.js'][174]++;
   ObjectEmitter.defineProperties(ObjectEmitter.prototype, {once: (function once(event, fn) {
-  _$jscoverage['object-emitter.js'][137]++;
+  _$jscoverage['object-emitter.js'][179]++;
   return this.many(event, 1, fn);
 }), many: (function many(event, ttl, fn) {
-  _$jscoverage['object-emitter.js'][142]++;
+  _$jscoverage['object-emitter.js'][184]++;
   var self = this;
-  _$jscoverage['object-emitter.js'][144]++;
+  _$jscoverage['object-emitter.js'][186]++;
   if (typeof fn !== "function") {
-    _$jscoverage['object-emitter.js'][145]++;
+    _$jscoverage['object-emitter.js'][187]++;
     throw new Error("many only accepts instances of Function");
   }
-  _$jscoverage['object-emitter.js'][148]++;
+  _$jscoverage['object-emitter.js'][190]++;
   function listener() {
-    _$jscoverage['object-emitter.js'][150]++;
+    _$jscoverage['object-emitter.js'][192]++;
     if (--ttl === 0) {
-      _$jscoverage['object-emitter.js'][151]++;
+      _$jscoverage['object-emitter.js'][193]++;
       self.off(event, listener);
     }
-    _$jscoverage['object-emitter.js'][154]++;
+    _$jscoverage['object-emitter.js'][196]++;
     fn.apply(this, arguments);
 }
-  _$jscoverage['object-emitter.js'][155]++;
+  _$jscoverage['object-emitter.js'][197]++;
   ;
-  _$jscoverage['object-emitter.js'][157]++;
+  _$jscoverage['object-emitter.js'][199]++;
   listener._origin = fn;
-  _$jscoverage['object-emitter.js'][159]++;
+  _$jscoverage['object-emitter.js'][201]++;
   this.on(event, listener);
-  _$jscoverage['object-emitter.js'][161]++;
+  _$jscoverage['object-emitter.js'][203]++;
   return this;
 }), emit: (function emit() {
-  _$jscoverage['object-emitter.js'][166]++;
+  _$jscoverage['object-emitter.js'][208]++;
   if (! this._events) {
-    _$jscoverage['object-emitter.js'][167]++;
+    _$jscoverage['object-emitter.js'][209]++;
     this._events = {};
   }
-  _$jscoverage['object-emitter.js'][170]++;
-  var type = arguments[0] && "object" === typeof arguments[0] && Object.keys(arguments[0]).length? arguments[0].join(this.get("emitter.delimiter", ".")): arguments[0];
-  _$jscoverage['object-emitter.js'][173]++;
-  if ((this._events["#"] || this._events["**"]) && (this._events["#"].length || this._events["**"].length)) {
-    _$jscoverage['object-emitter.js'][174]++;
+  _$jscoverage['object-emitter.js'][213]++;
+  if (! this._events) {
+    _$jscoverage['object-emitter.js'][214]++;
+    return;
+  }
+  _$jscoverage['object-emitter.js'][217]++;
+  var type = arguments[0] && "object" === typeof arguments[0] && Object.keys(arguments[0]).length? arguments[0].join(this.get? this.get("emitter.delimiter", "."): "."): arguments[0];
+  _$jscoverage['object-emitter.js'][219]++;
+  if (! this._events) {
+    _$jscoverage['object-emitter.js'][220]++;
+    this._events = {};
+  }
+  _$jscoverage['object-emitter.js'][224]++;
+  if ((this._events["#"] && this._events["#"].length) || (this._events["**"] && this._events["**"].length)) {
+    _$jscoverage['object-emitter.js'][226]++;
     var l = arguments.length;
-    _$jscoverage['object-emitter.js'][175]++;
+    _$jscoverage['object-emitter.js'][227]++;
     var __length = this._events["#"].length || this._events["**"].length;
-    _$jscoverage['object-emitter.js'][176]++;
+    _$jscoverage['object-emitter.js'][228]++;
     var args = new Array(l - 1);
-    _$jscoverage['object-emitter.js'][177]++;
+    _$jscoverage['object-emitter.js'][229]++;
     for (var i = 1; i < l; i++) {
-      _$jscoverage['object-emitter.js'][178]++;
+      _$jscoverage['object-emitter.js'][230]++;
       args[i - 1] = arguments[i];
 }
-    _$jscoverage['object-emitter.js'][180]++;
+    _$jscoverage['object-emitter.js'][232]++;
     for (i = 0, l = __length; i < l; i++) {
-      _$jscoverage['object-emitter.js'][181]++;
+      _$jscoverage['object-emitter.js'][233]++;
       this.event = type;
-      _$jscoverage['object-emitter.js'][183]++;
+      _$jscoverage['object-emitter.js'][235]++;
       if (this._events["#"]) {
-        _$jscoverage['object-emitter.js'][184]++;
-        this._events["**"][i].apply(this, args);
+        _$jscoverage['object-emitter.js'][236]++;
+        this._events["#"][i].apply(this, args);
       }
       else {
-        _$jscoverage['object-emitter.js'][185]++;
+        _$jscoverage['object-emitter.js'][237]++;
         if (this._events["**"]) {
-          _$jscoverage['object-emitter.js'][186]++;
-          this._events["#"][i].apply(this, args);
+          _$jscoverage['object-emitter.js'][238]++;
+          this._events["**"][i].apply(this, args);
         }
       }
 }
   }
-  _$jscoverage['object-emitter.js'][197]++;
+  _$jscoverage['object-emitter.js'][249]++;
   var handler = [];
-  _$jscoverage['object-emitter.js'][199]++;
+  _$jscoverage['object-emitter.js'][251]++;
   if ("undefined" === typeof type) {
-    _$jscoverage['object-emitter.js'][200]++;
+    _$jscoverage['object-emitter.js'][252]++;
     console.error("type is undefined");
-    _$jscoverage['object-emitter.js'][201]++;
+    _$jscoverage['object-emitter.js'][253]++;
     return this;
   }
-  _$jscoverage['object-emitter.js'][204]++;
+  _$jscoverage['object-emitter.js'][256]++;
   var ns = typeof type === "string"? type.split(this.get? this.get("emitter.delimiter", "."): "."): type.slice();
-  _$jscoverage['object-emitter.js'][206]++;
+  _$jscoverage['object-emitter.js'][258]++;
   if (! this.searchListenerTree) {
-    _$jscoverage['object-emitter.js'][207]++;
+    _$jscoverage['object-emitter.js'][259]++;
     console.error("Missing searchListenerTree()");
-    _$jscoverage['object-emitter.js'][208]++;
+    _$jscoverage['object-emitter.js'][260]++;
     this.searchListenerTree = ObjectEmitter.prototype.searchListenerTree.bind(this);
   }
-  _$jscoverage['object-emitter.js'][211]++;
+  _$jscoverage['object-emitter.js'][263]++;
   this.searchListenerTree(handler, ns, this._events, 0);
-  _$jscoverage['object-emitter.js'][213]++;
+  _$jscoverage['object-emitter.js'][265]++;
   if (typeof handler === "function") {
-    _$jscoverage['object-emitter.js'][215]++;
+    _$jscoverage['object-emitter.js'][267]++;
     this.event = type;
-    _$jscoverage['object-emitter.js'][216]++;
+    _$jscoverage['object-emitter.js'][268]++;
     if (arguments.length === 1) {
-      _$jscoverage['object-emitter.js'][217]++;
+      _$jscoverage['object-emitter.js'][269]++;
       handler.call(this);
     }
     else {
-      _$jscoverage['object-emitter.js'][218]++;
+      _$jscoverage['object-emitter.js'][270]++;
       if (arguments.length > 1) {
-        _$jscoverage['object-emitter.js'][219]++;
+        _$jscoverage['object-emitter.js'][271]++;
         switch (arguments.length) {
         case 2:
-          _$jscoverage['object-emitter.js'][221]++;
+          _$jscoverage['object-emitter.js'][273]++;
           handler.call(this, arguments[1]);
-          _$jscoverage['object-emitter.js'][222]++;
+          _$jscoverage['object-emitter.js'][274]++;
           break;
         case 3:
-          _$jscoverage['object-emitter.js'][224]++;
+          _$jscoverage['object-emitter.js'][276]++;
           handler.call(this, arguments[1], arguments[2]);
-          _$jscoverage['object-emitter.js'][225]++;
+          _$jscoverage['object-emitter.js'][277]++;
           break;
         default:
-          _$jscoverage['object-emitter.js'][228]++;
+          _$jscoverage['object-emitter.js'][280]++;
           var l = arguments.length;
-          _$jscoverage['object-emitter.js'][229]++;
+          _$jscoverage['object-emitter.js'][281]++;
           var args = new Array(l - 1);
-          _$jscoverage['object-emitter.js'][230]++;
+          _$jscoverage['object-emitter.js'][282]++;
           for (var i = 1; i < l; i++) {
-            _$jscoverage['object-emitter.js'][231]++;
+            _$jscoverage['object-emitter.js'][283]++;
             args[i - 1] = arguments[i];
 }
-          _$jscoverage['object-emitter.js'][233]++;
+          _$jscoverage['object-emitter.js'][285]++;
           handler.apply(this, args);
         }
       }
     }
   }
   else {
-    _$jscoverage['object-emitter.js'][236]++;
+    _$jscoverage['object-emitter.js'][288]++;
     if (handler) {
-      _$jscoverage['object-emitter.js'][238]++;
+      _$jscoverage['object-emitter.js'][290]++;
       var l = arguments.length;
-      _$jscoverage['object-emitter.js'][239]++;
+      _$jscoverage['object-emitter.js'][291]++;
       var args = new Array(l - 1);
-      _$jscoverage['object-emitter.js'][240]++;
+      _$jscoverage['object-emitter.js'][292]++;
       for (var i = 1; i < l; i++) {
-        _$jscoverage['object-emitter.js'][241]++;
+        _$jscoverage['object-emitter.js'][293]++;
         args[i - 1] = arguments[i];
 }
-      _$jscoverage['object-emitter.js'][243]++;
+      _$jscoverage['object-emitter.js'][295]++;
       var listeners = handler.slice();
-      _$jscoverage['object-emitter.js'][244]++;
+      _$jscoverage['object-emitter.js'][296]++;
       for (var i = 0, l = listeners.length; i < l; i++) {
-        _$jscoverage['object-emitter.js'][245]++;
+        _$jscoverage['object-emitter.js'][297]++;
         this.event = type;
-        _$jscoverage['object-emitter.js'][246]++;
+        _$jscoverage['object-emitter.js'][298]++;
         listeners[i].apply(this, args);
 }
     }
   }
-  _$jscoverage['object-emitter.js'][250]++;
+  _$jscoverage['object-emitter.js'][302]++;
   return this;
 }), on: (function on(type, listener) {
-  _$jscoverage['object-emitter.js'][265]++;
+  _$jscoverage['object-emitter.js'][316]++;
+  if (type === "#") {
+    _$jscoverage['object-emitter.js'][317]++;
+    type = "**";
+  }
+  _$jscoverage['object-emitter.js'][321]++;
   if (typeof type === "function") {
-    _$jscoverage['object-emitter.js'][266]++;
+    _$jscoverage['object-emitter.js'][322]++;
     listener = type;
-    _$jscoverage['object-emitter.js'][267]++;
+    _$jscoverage['object-emitter.js'][323]++;
     type = "#";
   }
-  _$jscoverage['object-emitter.js'][270]++;
+  _$jscoverage['object-emitter.js'][326]++;
   if (typeof listener !== "function") {
-    _$jscoverage['object-emitter.js'][273]++;
+    _$jscoverage['object-emitter.js'][329]++;
     if (this.settings["throw"]) {
-      _$jscoverage['object-emitter.js'][274]++;
+      _$jscoverage['object-emitter.js'][330]++;
       throw new Error("on only accepts instances of Function");
     }
     else {
-      _$jscoverage['object-emitter.js'][275]++;
+      _$jscoverage['object-emitter.js'][331]++;
       return this;
     }
   }
-  _$jscoverage['object-emitter.js'][279]++;
+  _$jscoverage['object-emitter.js'][335]++;
   this._events || ObjectEmitter.call(this);
-  _$jscoverage['object-emitter.js'][282]++;
+  _$jscoverage['object-emitter.js'][338]++;
   type = typeof type === "string"? type.split(this.get("emitter.delimiter", ".")).filter((function () {
-  _$jscoverage['object-emitter.js'][282]++;
+  _$jscoverage['object-emitter.js'][338]++;
   return arguments[0];
 })): type.slice();
-  _$jscoverage['object-emitter.js'][284]++;
+  _$jscoverage['object-emitter.js'][340]++;
   for (var i = 0, len = type.length; i + 1 < len; i++) {
-    _$jscoverage['object-emitter.js'][285]++;
+    _$jscoverage['object-emitter.js'][341]++;
     if (type[i] === "#" && type[i + 1] === "#") {
-      _$jscoverage['object-emitter.js'][285]++;
+      _$jscoverage['object-emitter.js'][341]++;
       return this;
     }
-    _$jscoverage['object-emitter.js'][286]++;
+    _$jscoverage['object-emitter.js'][342]++;
     if (type[i] === "**" && type[i + 1] === "**") {
-      _$jscoverage['object-emitter.js'][286]++;
+      _$jscoverage['object-emitter.js'][342]++;
       return this;
     }
 }
-  _$jscoverage['object-emitter.js'][289]++;
+  _$jscoverage['object-emitter.js'][345]++;
   var tree = this._events = this._events || {};
-  _$jscoverage['object-emitter.js'][290]++;
+  _$jscoverage['object-emitter.js'][346]++;
   var name = type.shift();
-  _$jscoverage['object-emitter.js'][292]++;
+  _$jscoverage['object-emitter.js'][348]++;
   while (name) {
-    _$jscoverage['object-emitter.js'][294]++;
+    _$jscoverage['object-emitter.js'][350]++;
     if (! tree[name]) {
-      _$jscoverage['object-emitter.js'][295]++;
+      _$jscoverage['object-emitter.js'][351]++;
       tree[name] = {};
     }
-    _$jscoverage['object-emitter.js'][298]++;
+    _$jscoverage['object-emitter.js'][354]++;
     tree = tree[name];
-    _$jscoverage['object-emitter.js'][300]++;
+    _$jscoverage['object-emitter.js'][356]++;
     if (type.length === 0) {
-      _$jscoverage['object-emitter.js'][302]++;
+      _$jscoverage['object-emitter.js'][358]++;
       if (! tree._listeners) {
-        _$jscoverage['object-emitter.js'][303]++;
+        _$jscoverage['object-emitter.js'][359]++;
         tree._listeners = listener;
       }
       else {
-        _$jscoverage['object-emitter.js'][304]++;
+        _$jscoverage['object-emitter.js'][360]++;
         if (typeof tree._listeners === "function") {
-          _$jscoverage['object-emitter.js'][305]++;
+          _$jscoverage['object-emitter.js'][361]++;
           tree._listeners = [tree._listeners, listener];
         }
         else {
-          _$jscoverage['object-emitter.js'][306]++;
+          _$jscoverage['object-emitter.js'][362]++;
           if (Array.isArray(tree._listeners)) {
-            _$jscoverage['object-emitter.js'][308]++;
+            _$jscoverage['object-emitter.js'][364]++;
             tree._listeners.push(listener);
-            _$jscoverage['object-emitter.js'][310]++;
+            _$jscoverage['object-emitter.js'][366]++;
             if (! tree._listeners.warned) {
-              _$jscoverage['object-emitter.js'][312]++;
+              _$jscoverage['object-emitter.js'][368]++;
               var m = this.maxListeners;
-              _$jscoverage['object-emitter.js'][314]++;
+              _$jscoverage['object-emitter.js'][370]++;
               if (typeof this._events.maxListeners !== "undefined") {
-                _$jscoverage['object-emitter.js'][315]++;
+                _$jscoverage['object-emitter.js'][371]++;
                 m = this._events.maxListeners;
               }
-              _$jscoverage['object-emitter.js'][318]++;
+              _$jscoverage['object-emitter.js'][374]++;
               if (m > 0 && tree._listeners.length > m) {
-                _$jscoverage['object-emitter.js'][319]++;
+                _$jscoverage['object-emitter.js'][375]++;
                 tree._listeners.warned = true;
-                _$jscoverage['object-emitter.js'][320]++;
+                _$jscoverage['object-emitter.js'][376]++;
                 console.error("(node) warning: possible emitter leak.", tree._listeners.length);
               }
             }
           }
         }
       }
-      _$jscoverage['object-emitter.js'][326]++;
+      _$jscoverage['object-emitter.js'][382]++;
       return this;
     }
-    _$jscoverage['object-emitter.js'][330]++;
+    _$jscoverage['object-emitter.js'][386]++;
     name = type.shift();
 }
-  _$jscoverage['object-emitter.js'][334]++;
+  _$jscoverage['object-emitter.js'][390]++;
   return this;
 }), off: (function off(type, listener) {
-  _$jscoverage['object-emitter.js'][348]++;
+  _$jscoverage['object-emitter.js'][404]++;
   if (typeof listener !== "function") {
-    _$jscoverage['object-emitter.js'][349]++;
+    _$jscoverage['object-emitter.js'][405]++;
     throw new Error("removeListener only takes instances of Function");
   }
-  _$jscoverage['object-emitter.js'][352]++;
+  _$jscoverage['object-emitter.js'][408]++;
   var handlers, leafs = [];
-  _$jscoverage['object-emitter.js'][354]++;
+  _$jscoverage['object-emitter.js'][410]++;
   var ns = typeof type === "string"? type.split(this.get("emitter.delimiter", ".")): type.slice();
-  _$jscoverage['object-emitter.js'][356]++;
+  _$jscoverage['object-emitter.js'][412]++;
   leafs = this.searchListenerTree(null, ns, this._events, 0);
-  _$jscoverage['object-emitter.js'][358]++;
+  _$jscoverage['object-emitter.js'][414]++;
   for (var iLeaf = 0; iLeaf < leafs.length; iLeaf++) {
-    _$jscoverage['object-emitter.js'][359]++;
+    _$jscoverage['object-emitter.js'][415]++;
     var leaf = leafs[iLeaf];
-    _$jscoverage['object-emitter.js'][360]++;
+    _$jscoverage['object-emitter.js'][416]++;
     handlers = leaf._listeners;
-    _$jscoverage['object-emitter.js'][361]++;
+    _$jscoverage['object-emitter.js'][417]++;
     if (Array.isArray(handlers)) {
-      _$jscoverage['object-emitter.js'][363]++;
+      _$jscoverage['object-emitter.js'][419]++;
       var position = -1;
-      _$jscoverage['object-emitter.js'][365]++;
+      _$jscoverage['object-emitter.js'][421]++;
       for (var i = 0, length = handlers.length; i < length; i++) {
-        _$jscoverage['object-emitter.js'][366]++;
+        _$jscoverage['object-emitter.js'][422]++;
         if (handlers[i] === listener || (handlers[i].listener && handlers[i].listener === listener) || (handlers[i]._origin && handlers[i]._origin === listener)) {
-          _$jscoverage['object-emitter.js'][367]++;
+          _$jscoverage['object-emitter.js'][423]++;
           position = i;
-          _$jscoverage['object-emitter.js'][368]++;
+          _$jscoverage['object-emitter.js'][424]++;
           break;
         }
 }
-      _$jscoverage['object-emitter.js'][372]++;
+      _$jscoverage['object-emitter.js'][428]++;
       if (position < 0) {
-        _$jscoverage['object-emitter.js'][373]++;
+        _$jscoverage['object-emitter.js'][429]++;
         return this;
       }
-      _$jscoverage['object-emitter.js'][376]++;
+      _$jscoverage['object-emitter.js'][432]++;
       leaf._listeners.splice(position, 1);
-      _$jscoverage['object-emitter.js'][378]++;
+      _$jscoverage['object-emitter.js'][434]++;
       if (handlers.length === 0) {
-        _$jscoverage['object-emitter.js'][379]++;
+        _$jscoverage['object-emitter.js'][435]++;
         delete leaf._listeners;
       }
     }
     else {
-      _$jscoverage['object-emitter.js'][382]++;
+      _$jscoverage['object-emitter.js'][438]++;
       if (handlers === listener || (handlers.listener && handlers.listener === listener) || (handlers._origin && handlers._origin === listener)) {
-        _$jscoverage['object-emitter.js'][383]++;
+        _$jscoverage['object-emitter.js'][439]++;
         delete leaf._listeners;
       }
     }
 }
-  _$jscoverage['object-emitter.js'][387]++;
+  _$jscoverage['object-emitter.js'][443]++;
   return this;
 }), removeAllListeners: (function removeAllListeners(type) {
-  _$jscoverage['object-emitter.js'][398]++;
+  _$jscoverage['object-emitter.js'][454]++;
   if (arguments.length === 0) {
-    _$jscoverage['object-emitter.js'][399]++;
+    _$jscoverage['object-emitter.js'][455]++;
     ! this._events || ObjectEmitter.call(this);
-    _$jscoverage['object-emitter.js'][400]++;
+    _$jscoverage['object-emitter.js'][456]++;
     return this;
   }
-  _$jscoverage['object-emitter.js'][403]++;
+  _$jscoverage['object-emitter.js'][459]++;
   var ns = typeof type === "string"? type.split(this.get("emitter.delimiter", ".")): type.slice();
-  _$jscoverage['object-emitter.js'][404]++;
+  _$jscoverage['object-emitter.js'][460]++;
   var leafs = this.searchListenerTree(null, ns, this._events, 0);
-  _$jscoverage['object-emitter.js'][406]++;
+  _$jscoverage['object-emitter.js'][462]++;
   for (var iLeaf = 0; iLeaf < leafs.length; iLeaf++) {
-    _$jscoverage['object-emitter.js'][407]++;
+    _$jscoverage['object-emitter.js'][463]++;
     var leaf = leafs[iLeaf];
-    _$jscoverage['object-emitter.js'][408]++;
+    _$jscoverage['object-emitter.js'][464]++;
     leaf._listeners = null;
 }
-  _$jscoverage['object-emitter.js'][411]++;
+  _$jscoverage['object-emitter.js'][467]++;
   return this;
 }), listeners: (function listeners(type) {
-  _$jscoverage['object-emitter.js'][424]++;
+  _$jscoverage['object-emitter.js'][480]++;
   var handlers = [];
-  _$jscoverage['object-emitter.js'][425]++;
+  _$jscoverage['object-emitter.js'][481]++;
   var ns = typeof type === "string"? type.split(this.get("emitter.delimiter", ".")): type.slice();
-  _$jscoverage['object-emitter.js'][427]++;
+  _$jscoverage['object-emitter.js'][483]++;
   this.searchListenerTree(handlers, ns, this._events, 0);
-  _$jscoverage['object-emitter.js'][429]++;
+  _$jscoverage['object-emitter.js'][485]++;
   return handlers;
 }), searchListenerTree: {value: (function searchListenerTree(handlers, type, tree, i) {
-  _$jscoverage['object-emitter.js'][445]++;
+  _$jscoverage['object-emitter.js'][501]++;
   if (! tree) {
-    _$jscoverage['object-emitter.js'][446]++;
+    _$jscoverage['object-emitter.js'][502]++;
     return [];
   }
-  _$jscoverage['object-emitter.js'][449]++;
+  _$jscoverage['object-emitter.js'][505]++;
   var self = this;
-  _$jscoverage['object-emitter.js'][451]++;
+  _$jscoverage['object-emitter.js'][507]++;
   var listeners = [], leaf, len, branch, xTree, xxTree, isolatedBranch, endReached, typeLength = type.length, currentType = type[i], nextType = type[i + 1];
-  _$jscoverage['object-emitter.js'][453]++;
+  _$jscoverage['object-emitter.js'][509]++;
   if (i === typeLength && tree._listeners) {
-    _$jscoverage['object-emitter.js'][455]++;
+    _$jscoverage['object-emitter.js'][511]++;
     if (typeof tree._listeners === "function") {
-      _$jscoverage['object-emitter.js'][456]++;
+      _$jscoverage['object-emitter.js'][512]++;
       handlers && handlers.push(tree._listeners);
-      _$jscoverage['object-emitter.js'][457]++;
+      _$jscoverage['object-emitter.js'][513]++;
       return [tree];
     }
     else {
-      _$jscoverage['object-emitter.js'][460]++;
+      _$jscoverage['object-emitter.js'][516]++;
       for (leaf = 0, len = tree._listeners.length; leaf < len; leaf++) {
-        _$jscoverage['object-emitter.js'][461]++;
+        _$jscoverage['object-emitter.js'][517]++;
         handlers && handlers.push(tree._listeners[leaf]);
 }
-      _$jscoverage['object-emitter.js'][463]++;
+      _$jscoverage['object-emitter.js'][519]++;
       return [tree];
     }
   }
-  _$jscoverage['object-emitter.js'][468]++;
+  _$jscoverage['object-emitter.js'][524]++;
   if ((currentType === "*" || currentType === "**" || currentType === "#") || tree[currentType]) {
-    _$jscoverage['object-emitter.js'][470]++;
+    _$jscoverage['object-emitter.js'][526]++;
     if (currentType === "*") {
-      _$jscoverage['object-emitter.js'][471]++;
+      _$jscoverage['object-emitter.js'][527]++;
       for (branch in tree) {
-        _$jscoverage['object-emitter.js'][472]++;
+        _$jscoverage['object-emitter.js'][528]++;
         if (branch !== "_listeners" && tree.hasOwnProperty(branch)) {
-          _$jscoverage['object-emitter.js'][473]++;
+          _$jscoverage['object-emitter.js'][529]++;
           listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i + 1));
         }
 }
-      _$jscoverage['object-emitter.js'][476]++;
+      _$jscoverage['object-emitter.js'][532]++;
       return listeners;
     }
     else {
-      _$jscoverage['object-emitter.js'][478]++;
+      _$jscoverage['object-emitter.js'][534]++;
       if (currentType === "**" || currentType === "#") {
-        _$jscoverage['object-emitter.js'][479]++;
+        _$jscoverage['object-emitter.js'][535]++;
         endReached = (i + 1 === typeLength || (i + 2 === typeLength && nextType === "*"));
-        _$jscoverage['object-emitter.js'][480]++;
+        _$jscoverage['object-emitter.js'][536]++;
         if (endReached && tree._listeners) {
-          _$jscoverage['object-emitter.js'][482]++;
+          _$jscoverage['object-emitter.js'][538]++;
           listeners = listeners.concat(this.searchListenerTree(handlers, type, tree, typeLength));
         }
-        _$jscoverage['object-emitter.js'][485]++;
+        _$jscoverage['object-emitter.js'][541]++;
         for (branch in tree) {
-          _$jscoverage['object-emitter.js'][486]++;
+          _$jscoverage['object-emitter.js'][542]++;
           if (branch !== "_listeners" && tree.hasOwnProperty(branch)) {
-            _$jscoverage['object-emitter.js'][487]++;
+            _$jscoverage['object-emitter.js'][543]++;
             if (branch === "*" || (branch === "**" || branch === "#")) {
-              _$jscoverage['object-emitter.js'][488]++;
+              _$jscoverage['object-emitter.js'][544]++;
               if (tree[branch]._listeners && ! endReached) {
-                _$jscoverage['object-emitter.js'][489]++;
+                _$jscoverage['object-emitter.js'][545]++;
                 listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], typeLength));
               }
-              _$jscoverage['object-emitter.js'][491]++;
+              _$jscoverage['object-emitter.js'][547]++;
               listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i));
             }
             else {
-              _$jscoverage['object-emitter.js'][492]++;
+              _$jscoverage['object-emitter.js'][548]++;
               if (branch === nextType) {
-                _$jscoverage['object-emitter.js'][493]++;
+                _$jscoverage['object-emitter.js'][549]++;
                 listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i + 2));
               }
               else {
-                _$jscoverage['object-emitter.js'][496]++;
+                _$jscoverage['object-emitter.js'][552]++;
                 listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[branch], i));
               }
             }
           }
 }
-        _$jscoverage['object-emitter.js'][500]++;
+        _$jscoverage['object-emitter.js'][556]++;
         return listeners;
       }
     }
-    _$jscoverage['object-emitter.js'][503]++;
+    _$jscoverage['object-emitter.js'][559]++;
     listeners = listeners.concat(this.searchListenerTree(handlers, type, tree[currentType], i + 1));
   }
-  _$jscoverage['object-emitter.js'][507]++;
+  _$jscoverage['object-emitter.js'][563]++;
   xTree = tree["*"];
-  _$jscoverage['object-emitter.js'][509]++;
+  _$jscoverage['object-emitter.js'][565]++;
   if (xTree) {
-    _$jscoverage['object-emitter.js'][510]++;
+    _$jscoverage['object-emitter.js'][566]++;
     this.searchListenerTree(handlers, type, xTree, i + 1);
   }
-  _$jscoverage['object-emitter.js'][513]++;
+  _$jscoverage['object-emitter.js'][569]++;
   xxTree = tree["**"];
-  _$jscoverage['object-emitter.js'][515]++;
+  _$jscoverage['object-emitter.js'][571]++;
   if (xxTree) {
-    _$jscoverage['object-emitter.js'][516]++;
+    _$jscoverage['object-emitter.js'][572]++;
     if (i < typeLength) {
-      _$jscoverage['object-emitter.js'][518]++;
+      _$jscoverage['object-emitter.js'][574]++;
       if (xxTree._listeners) {
-        _$jscoverage['object-emitter.js'][519]++;
+        _$jscoverage['object-emitter.js'][575]++;
         this.searchListenerTree(handlers, type, xxTree, typeLength);
       }
-      _$jscoverage['object-emitter.js'][523]++;
+      _$jscoverage['object-emitter.js'][579]++;
       for (branch in xxTree) {
-        _$jscoverage['object-emitter.js'][524]++;
+        _$jscoverage['object-emitter.js'][580]++;
         if (branch !== "_listeners" && xxTree.hasOwnProperty(branch)) {
-          _$jscoverage['object-emitter.js'][525]++;
+          _$jscoverage['object-emitter.js'][581]++;
           if (branch === nextType) {
-            _$jscoverage['object-emitter.js'][527]++;
+            _$jscoverage['object-emitter.js'][583]++;
             this.searchListenerTree(handlers, type, xxTree[branch], i + 2);
           }
           else {
-            _$jscoverage['object-emitter.js'][528]++;
+            _$jscoverage['object-emitter.js'][584]++;
             if (branch === currentType) {
-              _$jscoverage['object-emitter.js'][530]++;
+              _$jscoverage['object-emitter.js'][586]++;
               this.searchListenerTree(handlers, type, xxTree[branch], i + 1);
             }
             else {
-              _$jscoverage['object-emitter.js'][532]++;
+              _$jscoverage['object-emitter.js'][588]++;
               isolatedBranch = {};
-              _$jscoverage['object-emitter.js'][533]++;
+              _$jscoverage['object-emitter.js'][589]++;
               isolatedBranch[branch] = xxTree[branch];
-              _$jscoverage['object-emitter.js'][534]++;
+              _$jscoverage['object-emitter.js'][590]++;
               this.searchListenerTree(handlers, type, {"#": isolatedBranch}, i + 1);
             }
           }
@@ -767,43 +818,41 @@ require("abstract").createModel(module.exports = (function ObjectEmitter() {
 }
     }
     else {
-      _$jscoverage['object-emitter.js'][538]++;
+      _$jscoverage['object-emitter.js'][594]++;
       if (xxTree._listeners) {
-        _$jscoverage['object-emitter.js'][540]++;
+        _$jscoverage['object-emitter.js'][596]++;
         this.searchListenerTree(handlers, type, xxTree, typeLength);
       }
       else {
-        _$jscoverage['object-emitter.js'][541]++;
+        _$jscoverage['object-emitter.js'][597]++;
         if (xxTree["*"] && xxTree["*"]._listeners) {
-          _$jscoverage['object-emitter.js'][542]++;
+          _$jscoverage['object-emitter.js'][598]++;
           this.searchListenerTree(handlers, type, xxTree["*"], typeLength);
         }
       }
     }
   }
-  _$jscoverage['object-emitter.js'][546]++;
+  _$jscoverage['object-emitter.js'][602]++;
   return listeners;
 }), writable: true, configurable: true, enumerable: true}});
-  _$jscoverage['object-emitter.js'][560]++;
+  _$jscoverage['object-emitter.js'][616]++;
   ObjectEmitter.defineConstructor((function create(options) {
-  _$jscoverage['object-emitter.js'][561]++;
+  _$jscoverage['object-emitter.js'][617]++;
   var Instance = this;
-  _$jscoverage['object-emitter.js'][563]++;
-  Instance.set("emitter", _extend({delimiter: "."}, options));
-  _$jscoverage['object-emitter.js'][567]++;
-  Instance.properties({_events: {value: {}, enumerable: false}, writable: {value: true, enumerable: false}, readable: {value: true, enumerable: false}});
-  _$jscoverage['object-emitter.js'][583]++;
+  _$jscoverage['object-emitter.js'][619]++;
+  Instance.properties({_events: {value: {}, enumerable: false}});
+  _$jscoverage['object-emitter.js'][627]++;
   if (Instance.get("usingDomains")) {
-    _$jscoverage['object-emitter.js'][584]++;
+    _$jscoverage['object-emitter.js'][628]++;
     domain = domain || require("domain");
-    _$jscoverage['object-emitter.js'][585]++;
+    _$jscoverage['object-emitter.js'][629]++;
     if (domain.active && ! (Instance instanceof domain.Domain)) {
-      _$jscoverage['object-emitter.js'][586]++;
+      _$jscoverage['object-emitter.js'][630]++;
       Instance.properties({domain: {value: domain.active, enumerable: false}});
     }
   }
-  _$jscoverage['object-emitter.js'][590]++;
+  _$jscoverage['object-emitter.js'][634]++;
   return Instance;
 }));
 }));
-_$jscoverage['object-emitter.js'].source = ["/**"," * Object Channels"," *"," * Create EventChannel channels."," *"," * @version 0.0.3"," * @module object-channel"," * @author potanin@UD"," * @constructor"," */","require( 'abstract' ).createModel( module.exports = function ObjectEmitter() {","","  // Construct Model only once.","  if( module.loaded ) {","    return ObjectEmitter;","  }","","  // Private Modules.","  var stream     = require( 'stream' );","  var domain     = require( 'domain' );","  var util       = require( 'util' );","  var inherits   = require( 'util' ).inherits;","  var _extend    = require( 'util' )._extend;","","  /**","   * Instance Properties","   *","   */","  ObjectEmitter.defineProperties( ObjectEmitter, {","    include: {","      /**","       * Include Instantiated ClusterEmitter","       *","       * If object not provided will bind to context.","       *","       * @param {Object} obj","       * @return {Object}","       */","      value: function include( obj ) {","","        var target = obj || this;","        var Instance = new ObjectEmitter.create();","","        for( var key in Instance ) {","","          Object.defineProperty( target, key, {","            value: target[ key ] || Instance[ key ],","            enumerable: false,","            writable: true,","            configurable: true","          });","","        }","","        return target;","","      },","      enumerable: true,","      configurable: true,","      writable: true","    },","    mixin: {","      /**","       * Mixin the Emitter properties.","       *","       * @param {Object} obj","       * @return {Object}","       */","      value: function mixin( obj ) {","","        for( var key in ObjectEmitter.prototype ) {","","          var descriptor = Object.getOwnPropertyDescriptor( obj, key );","","          // Detect if a property is not configurable.","          if( descriptor &amp;&amp; !descriptor.configurable ) {","            break;","          }","","          try {","","            Object.defineProperty( obj, key, {","              value: obj[ key ] || ObjectEmitter.prototype[ key ],","              enumerable: false,","              writable: true,","              configurable: true","            });","","          } catch( error ) {}","","        }","","        // Ensure we have an listener container.","        if( !obj._events ) {","          obj._events = {};","        }","","        return obj;","","      },","      enumerable: true,","      configurable: true,","      writable: true","    },","    eventify: function eventify( target, namespace, options ) {","","      // Enable EventChannel","      ObjectEmitter.extend( target, namespace, options );","","      // Trigger Method on Event","      Object.getOwnPropertyName( target ).forEach( function( method ) {","","        // @todo Should probably exclude all EE methods from being bound","        if( method !== 'on' &amp;&amp; method != 'emit' &amp;&amp; 'function' === typeof target[ method ] ) {","          target.on( method, target[ method ] );","        }","","      });","","      return this;","","    }","  });","","  /**","   * Constructor Properties","   *","   * The following properties are available within the constructor factory or by","   * referencing the constructor.","   *","   */","  ObjectEmitter.defineProperties( ObjectEmitter.prototype, {","","    // EventEmitter Methods","    once: function once( event, fn ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1] );","      return this.many( event, 1, fn );","    },","    many: function many( event, ttl, fn ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1], typeof arguments[2] );","","      var self = this;","","      if( typeof fn !== 'function' ) {","        throw new Error( 'many only accepts instances of Function' );","      }","","      function listener() {","","        if( --ttl === 0 ) {","          self.off( event, listener );","        }","","        fn.apply( this, arguments );","      };","","      listener._origin = fn;","","      this.on( event, listener );","","      return this;","    },","    emit: function emit() {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] );","","      if( !this._events ) {","        this._events = {};","      }","","      var type = arguments[0] &amp;&amp; 'object' === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this.get( 'emitter.delimiter', '.' ) ) : arguments[0];","","      // Loop through the ** functions and invoke them.","      if( ( this._events[ '#' ] || this._events[ '**' ] ) &amp;&amp; ( this._events[ '#' ].length || this._events[ '**' ].length ) ) {","        var l = arguments.length;","        var __length = this._events[ '#' ].length || this._events[ '**' ].length;","        var args = new Array( l - 1 );","        for( var i = 1; i &lt; l; i++ ) {","          args[i - 1] = arguments[i];","        }","        for( i = 0, l = __length; i &lt; l; i++ ) {","          this.event = type;","","          if( this._events[ '#' ] ) {","            this._events[ '**' ][i].apply( this, args );","          } else if ( this._events[ '**' ] ) {","            this._events[ '#' ][i].apply( this, args );","          }","","        }","      }","","      // If there is no 'error' event listener then throw.","      /* if( type === 'error' &amp;&amp; !this._events[ '**' ].length &amp;&amp; !this._events.error ) {","        throw arguments[1] instanceof Error ? arguments[1] : new Error( \"Uncaught, unspecified 'error' event.\" );","      } */","","      var handler = [];","","      if( 'undefined' === typeof type ) {","        console.error( 'type is undefined' );","        return this;","      }","","      var ns = typeof type === 'string' ? type.split( this.get ? this.get( 'emitter.delimiter', '.' ) : '.' ) : type.slice();","","      if( !this.searchListenerTree ) {","        console.error( 'Missing searchListenerTree()' );","        this.searchListenerTree = ObjectEmitter.prototype.searchListenerTree.bind( this );","      }","","      this.searchListenerTree( handler, ns, this._events, 0 );","","      if( typeof handler === 'function' ) {","        //// ObjectEmitter.logger.debug( '%s() handler %s IS a function', arguments.callee.name, type );","        this.event = type;","        if( arguments.length === 1 ) {","          handler.call( this );","        } else if( arguments.length &gt; 1 ) {","          switch( arguments.length ) {","            case 2:","              handler.call( this, arguments[1] );","              break;","            case 3:","              handler.call( this, arguments[1], arguments[2] );","              break;","            // slower","            default:","              var l = arguments.length;","              var args = new Array( l - 1 );","              for( var i = 1; i &lt; l; i++ ) {","                args[i - 1] = arguments[i];","              }","              handler.apply( this, args );","          }","        }","      } else if( handler ) {","        //// ObjectEmitter.logger.debug( '%s() handler %s is not a function', arguments.callee.name, type );","        var l = arguments.length;","        var args = new Array( l - 1 );","        for( var i = 1; i &lt; l; i++ ) {","          args[i - 1] = arguments[i];","        }","        var listeners = handler.slice();","        for( var i = 0, l = listeners.length; i &lt; l; i++ ) {","          this.event = type;","          listeners[i].apply( this, args );","        }","      }","","      return this;","","    },","","    /**","     * Add Listener","     *","     * @param type","     * @param listener","     * @returns {*}","     */","    on: function on( type, listener ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] )","","      // If no type specified, assume we are creating an all-event listener","      if( typeof type === 'function' ) {","        listener = type;","        type = '#';","      }","","      if( typeof listener !== 'function' ) {","        // ObjectEmitter.logger.error( this.constructor.name, ':', arguments.callee.name, ' - callback must be typeof function, not', typeof listener, 'as provided.' )","","        if( this.settings.throw ) {","          throw new Error( 'on only accepts instances of Function' );","        } else { return this; }","","      }","","      this._events || ObjectEmitter.call( this );","","      // Break the \"type\" into array parts, and remove any blank values","      type = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ).filter( function() { return arguments[0]; }) : type.slice();","","      for( var i = 0, len = type.length; i + 1 &lt; len; i++ ) {","        if( type[i] === '#' &amp;&amp; type[i + 1] === '#' ) { return this; }","        if( type[i] === '**' &amp;&amp; type[i + 1] === '**' ) { return this; }","      }","","      var tree = this._events = this._events || {};","      var name = type.shift();","","      while( name ) {","","        if( !tree[name] ) {","          tree[name] = {};","        }","","        tree = tree[name];","","        if( type.length === 0 ) {","","          if( !tree._listeners ) {","            tree._listeners = listener;","          } else if( typeof tree._listeners === 'function' ) {","            tree._listeners = [tree._listeners, listener];","          } else if( Array.isArray( tree._listeners ) ) {","","            tree._listeners.push( listener );","","            if( !tree._listeners.warned ) {","","              var m = this.maxListeners;","","              if( typeof this._events.maxListeners !== 'undefined' ) {","                m = this._events.maxListeners;","              }","","              if( m &gt; 0 &amp;&amp; tree._listeners.length &gt; m ) {","                tree._listeners.warned = true;","                console.error( '(node) warning: possible emitter leak.', tree._listeners.length );","              }","","            }","          }","","          return this;","","        }","","        name = type.shift();","","      }","","      return this;","","    },","","    /**","     * Remove Listener","     *","     * @param type","     * @param listener","     * @returns {*}","     */","    off: function off( type, listener ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1] )","","      if( typeof listener !== 'function' ) {","        throw new Error( 'removeListener only takes instances of Function' );","      }","","      var handlers, leafs = [];","","      var ns = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ) : type.slice();","","      leafs = this.searchListenerTree( null, ns, this._events, 0 );","","      for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {","        var leaf = leafs[iLeaf];","        handlers = leaf._listeners;","        if( Array.isArray( handlers ) ) {","","          var position = -1;","","          for( var i = 0, length = handlers.length; i &lt; length; i++ ) {","            if( handlers[i] === listener || (handlers[i].listener &amp;&amp; handlers[i].listener === listener) || (handlers[i]._origin &amp;&amp; handlers[i]._origin === listener) ) {","              position = i;","              break;","            }","          }","","          if( position &lt; 0 ) {","            return this;","          }","","          leaf._listeners.splice( position, 1 )","","          if( handlers.length === 0 ) {","            delete leaf._listeners;","          }","","        } else if( handlers === listener || (handlers.listener &amp;&amp; handlers.listener === listener) || (handlers._origin &amp;&amp; handlers._origin === listener) ) {","          delete leaf._listeners;","        }","      }","","      return this;","    },","","    /**","     * Remove All Listeners","     *","     * @param type","     * @returns {*}","     */","    removeAllListeners: function removeAllListeners( type ) {","","      if( arguments.length === 0 ) {","        !this._events || ObjectEmitter.call( this );","        return this;","      }","","      var ns = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ) : type.slice();","      var leafs = this.searchListenerTree( null, ns, this._events, 0 );","","      for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {","        var leaf = leafs[iLeaf];","        leaf._listeners = null;","      }","","      return this;","","    },","","    /**","     * Get Listeners","     *","     * @param type","     * @returns {Array}","     */","    listeners: function listeners( type ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] );","","      var handlers = [];","      var ns = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ) : type.slice();","","      this.searchListenerTree( handlers, ns, this._events, 0 );","","      return handlers;","","    },","","    searchListenerTree: {","      /**","       * Search Listener Tree","       * @param handlers","       * @param type","       * @param tree","       * @param i","       * @returns {Array}","       */","      value: function searchListenerTree( handlers, type, tree, i ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, handlers, type, typeof tree, i );","","      if( !tree ) {","        return [];","      }","","      var self = this;","","      var listeners = [], leaf, len, branch, xTree, xxTree, isolatedBranch, endReached, typeLength = type.length, currentType = type[i], nextType = type[i + 1];","","      if( i === typeLength &amp;&amp; tree._listeners ) {","","        if( typeof tree._listeners === 'function' ) {","          handlers &amp;&amp; handlers.push( tree._listeners );","          return [tree];","","        } else {","          for( leaf = 0, len = tree._listeners.length; leaf &lt; len; leaf++ ) {","            handlers &amp;&amp; handlers.push( tree._listeners[leaf] );","          }","          return [tree];","        }","","      }","","      if( ( currentType === '*' || currentType === '**' || currentType === '#' ) || tree[ currentType ] ) {","","        if( currentType === '*' ) {","          for( branch in tree ) {","            if( branch !== '_listeners' &amp;&amp; tree.hasOwnProperty( branch ) ) {","              listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i + 1 ) );","            }","          }","          return listeners;","","        } else if( currentType === '**' || currentType === '#' ) {","          endReached = (i + 1 === typeLength || (i + 2 === typeLength &amp;&amp; nextType === '*'));","          if( endReached &amp;&amp; tree._listeners ) {","            // The next element has a _listeners, add it to the handlers.","            listeners = listeners.concat( this.searchListenerTree( handlers, type, tree, typeLength ) );","          }","","          for( branch in tree ) {","            if( branch !== '_listeners' &amp;&amp; tree.hasOwnProperty( branch ) ) {","              if( branch === '*' || ( branch === '**' || branch === '#' ) ) {","                if( tree[branch]._listeners &amp;&amp; !endReached ) {","                  listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], typeLength ) );","                }","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i ) );","              } else if( branch === nextType ) {","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i + 2 ) );","              } else {","                // No match on this one, shift into the tree but not in the type array.","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i ) );","              }","            }","          }","          return listeners;","        }","","        listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[currentType], i + 1 ) );","","      }","","      xTree = tree['*'];","","      if( xTree ) {","        this.searchListenerTree( handlers, type, xTree, i + 1 );","      }","","      xxTree = tree[ '**' ];","","      if( xxTree ) {","        if( i &lt; typeLength ) {","","          if( xxTree._listeners ) {","            this.searchListenerTree( handlers, type, xxTree, typeLength );","          }","","          // Build arrays of matching next branches and others.","          for( branch in xxTree ) {","            if( branch !== '_listeners' &amp;&amp; xxTree.hasOwnProperty( branch ) ) {","              if( branch === nextType ) {","                // We know the next element will match, so jump twice.","                this.searchListenerTree( handlers, type, xxTree[branch], i + 2 );","              } else if( branch === currentType ) {","                // Current node matches, move into the tree.","                this.searchListenerTree( handlers, type, xxTree[branch], i + 1 );","              } else {","                isolatedBranch = {};","                isolatedBranch[branch] = xxTree[branch];","                this.searchListenerTree( handlers, type, { '#': isolatedBranch }, i + 1 );","              }","            }","          }","        } else if( xxTree._listeners ) {","          // We have reached the end and still on a '#'","          this.searchListenerTree( handlers, type, xxTree, typeLength );","        } else if( xxTree['*'] &amp;&amp; xxTree['*']._listeners ) {","          this.searchListenerTree( handlers, type, xxTree['*'], typeLength );","        }","      }","","      return listeners;","","    },","      writable: true,","      configurable: true,","      enumerable: true","    }","","  });","","  /**","   * Emitter Constructor.","   *","   */","  ObjectEmitter.defineConstructor( function create( options ) {","    var Instance = this;","","    Instance.set( 'emitter', _extend( {","      delimiter: '.'","    }, options ) );","","    Instance.properties({","      _events: {","        value: {},","        enumerable: false","      },","      writable: {","        value: true,","        enumerable: false","      },","      readable: {","        value: true,","        enumerable: false","      },","    })","","    // if there is an active domain, then attach to it.","    if( Instance.get( 'usingDomains' ) ) {","      domain = domain || require( 'domain' );","      if( domain.active &amp;&amp; !( Instance instanceof domain.Domain )) {","        Instance.properties({ domain: { value: domain.active, enumerable: false }, });","      }","    }","","    return Instance;","","  });","","});"];
+_$jscoverage['object-emitter.js'].source = ["/**"," * Object Channels"," *"," * Create EventChannel channels."," *"," * @version 0.0.3"," * @module object-channel"," * @author potanin@UD"," * @constructor"," */","require( 'abstract' ).createModel( module.exports = function ObjectEmitter() {","","  // Construct Model only once.","  if( module.loaded ) {","    return ObjectEmitter;","  }","","  // Private Modules.","  var stream     = require( 'stream' );","  var domain     = require( 'domain' );","  var util       = require( 'util' );","  var inherits   = require( 'util' ).inherits;","  var _extend    = require( 'util' )._extend;","","  /**","   * Instance Properties","   *","   */","  ObjectEmitter.defineProperties( ObjectEmitter, {","    inject: {","      /**","       * Force / Override properties","       *","       * If object not provided will bind to context.","       *","       * @param {Object} obj","       * @return {Object}","       */","      value: function inject( obj ) {","","        var target = obj || this;","        var Instance = new ObjectEmitter.create();","","        for( var key in Instance ) {","","          Object.defineProperty( target, key, {","            value: Instance[ key ],","            enumerable: false,","            writable: true,","            configurable: true","          });","","        }","","        // Ensure we have an listener container.","        if( !target._events ) {","          target._events = {};","        }","","        return target;","","      },","      enumerable: true,","      configurable: true,","      writable: true","    },","    include: {","      /**","       * Include Instantiated ClusterEmitter","       *","       * If object not provided will bind to context.","       *","       * @param {Object} obj","       * @return {Object}","       */","      value: function include( obj ) {","","        var target = obj || this;","        var Instance = new ObjectEmitter.create();","","        for( var key in Instance ) {","","          Object.defineProperty( target, key, {","            value: target[ key ] || Instance[ key ],","            enumerable: false,","            writable: true,","            configurable: true","          });","","        }","","        // Ensure we have an listener container.","        if( !target._events ) {","          target._events = {};","        }","","        return target;","","      },","      enumerable: true,","      configurable: true,","      writable: true","    },","    mixin: {","      /**","       * Mixin the Emitter properties.","       *","       * @param {Object} obj","       * @return {Object}","       */","      value: function mixin( obj ) {","","        for( var key in ObjectEmitter.prototype ) {","","          var descriptor = Object.getOwnPropertyDescriptor( obj, key );","","          // Detect if a property is not configurable.","          if( descriptor &amp;&amp; !descriptor.configurable ) {","            break;","          }","","          try {","","            Object.defineProperty( obj, key, {","              value: obj[ key ] || ObjectEmitter.prototype[ key ],","              enumerable: false,","              writable: true,","              configurable: true","            });","","          } catch( error ) {}","","        }","","        // Ensure we have an listener container.","        if( !obj._events ) {","          obj._events = {};","        }","","        return obj;","","      },","      enumerable: true,","      configurable: true,","      writable: true","    },","    eventify: function eventify( target, namespace, options ) {","","      // Enable EventChannel","      ObjectEmitter.extend( target, namespace, options );","","      // Trigger Method on Event","      Object.getOwnPropertyName( target ).forEach( function( method ) {","","        // @todo Should probably exclude all EE methods from being bound","        if( method !== 'on' &amp;&amp; method != 'emit' &amp;&amp; 'function' === typeof target[ method ] ) {","          target.on( method, target[ method ] );","        }","","      });","","      return this;","","    }","  });","","  /**","   * Constructor Properties","   *","   * The following properties are available within the constructor factory or by","   * referencing the constructor.","   *","   */","  ObjectEmitter.defineProperties( ObjectEmitter.prototype, {","","    // EventEmitter Methods","    once: function once( event, fn ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1] );","      return this.many( event, 1, fn );","    },","    many: function many( event, ttl, fn ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1], typeof arguments[2] );","","      var self = this;","","      if( typeof fn !== 'function' ) {","        throw new Error( 'many only accepts instances of Function' );","      }","","      function listener() {","","        if( --ttl === 0 ) {","          self.off( event, listener );","        }","","        fn.apply( this, arguments );","      };","","      listener._origin = fn;","","      this.on( event, listener );","","      return this;","    },","    emit: function emit() {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] );","","      if( !this._events ) {","        this._events = {};","      }","","      // If event storage is still not set, it must be uneditable.","      if( !this._events ) {","        return;","      }","","      var type = arguments[0] &amp;&amp; 'object' === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this.get ? this.get( 'emitter.delimiter', '.' ) : '.' ) : arguments[0];","","      if( !this._events ) {","        this._events = {};","      }","","      // Loop through the ** functions and invoke them.","      if( ( this._events[ '#' ] &amp;&amp; this._events[ '#' ].length )","        || ( this._events[ '**' ] &amp;&amp; this._events[ '**' ].length ) ) {","        var l = arguments.length;","        var __length = this._events[ '#' ].length || this._events[ '**' ].length;","        var args = new Array( l - 1 );","        for( var i = 1; i &lt; l; i++ ) {","          args[i - 1] = arguments[i];","        }","        for( i = 0, l = __length; i &lt; l; i++ ) {","          this.event = type;","","          if( this._events[ '#' ] ) {","            this._events[ '#' ][i].apply( this, args );","          } else if ( this._events[ '**' ] ) {","            this._events[ '**' ][i].apply( this, args );","          }","","        }","      }","","      // If there is no 'error' event listener then throw.","      /* if( type === 'error' &amp;&amp; !this._events[ '**' ].length &amp;&amp; !this._events.error ) {","        throw arguments[1] instanceof Error ? arguments[1] : new Error( \"Uncaught, unspecified 'error' event.\" );","      } */","","      var handler = [];","","      if( 'undefined' === typeof type ) {","        console.error( 'type is undefined' );","        return this;","      }","","      var ns = typeof type === 'string' ? type.split( this.get ? this.get( 'emitter.delimiter', '.' ) : '.' ) : type.slice();","","      if( !this.searchListenerTree ) {","        console.error( 'Missing searchListenerTree()' );","        this.searchListenerTree = ObjectEmitter.prototype.searchListenerTree.bind( this );","      }","","      this.searchListenerTree( handler, ns, this._events, 0 );","","      if( typeof handler === 'function' ) {","        //// ObjectEmitter.logger.debug( '%s() handler %s IS a function', arguments.callee.name, type );","        this.event = type;","        if( arguments.length === 1 ) {","          handler.call( this );","        } else if( arguments.length &gt; 1 ) {","          switch( arguments.length ) {","            case 2:","              handler.call( this, arguments[1] );","              break;","            case 3:","              handler.call( this, arguments[1], arguments[2] );","              break;","            // slower","            default:","              var l = arguments.length;","              var args = new Array( l - 1 );","              for( var i = 1; i &lt; l; i++ ) {","                args[i - 1] = arguments[i];","              }","              handler.apply( this, args );","          }","        }","      } else if( handler ) {","        //// ObjectEmitter.logger.debug( '%s() handler %s is not a function', arguments.callee.name, type );","        var l = arguments.length;","        var args = new Array( l - 1 );","        for( var i = 1; i &lt; l; i++ ) {","          args[i - 1] = arguments[i];","        }","        var listeners = handler.slice();","        for( var i = 0, l = listeners.length; i &lt; l; i++ ) {","          this.event = type;","          listeners[i].apply( this, args );","        }","      }","","      return this;","","    },","","    /**","     * Add Listener","     *","     * @param type","     * @param listener","     * @returns {*}","     */","    on: function on( type, listener ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] )","","      if( type === '#' ) {","        type = '**';","      }","","      // If no type specified, assume we are creating an all-event listener","      if( typeof type === 'function' ) {","        listener = type;","        type = '#';","      }","","      if( typeof listener !== 'function' ) {","        // ObjectEmitter.logger.error( this.constructor.name, ':', arguments.callee.name, ' - callback must be typeof function, not', typeof listener, 'as provided.' )","","        if( this.settings.throw ) {","          throw new Error( 'on only accepts instances of Function' );","        } else { return this; }","","      }","","      this._events || ObjectEmitter.call( this );","","      // Break the \"type\" into array parts, and remove any blank values","      type = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ).filter( function() { return arguments[0]; }) : type.slice();","","      for( var i = 0, len = type.length; i + 1 &lt; len; i++ ) {","        if( type[i] === '#' &amp;&amp; type[i + 1] === '#' ) { return this; }","        if( type[i] === '**' &amp;&amp; type[i + 1] === '**' ) { return this; }","      }","","      var tree = this._events = this._events || {};","      var name = type.shift();","","      while( name ) {","","        if( !tree[name] ) {","          tree[name] = {};","        }","","        tree = tree[name];","","        if( type.length === 0 ) {","","          if( !tree._listeners ) {","            tree._listeners = listener;","          } else if( typeof tree._listeners === 'function' ) {","            tree._listeners = [tree._listeners, listener];","          } else if( Array.isArray( tree._listeners ) ) {","","            tree._listeners.push( listener );","","            if( !tree._listeners.warned ) {","","              var m = this.maxListeners;","","              if( typeof this._events.maxListeners !== 'undefined' ) {","                m = this._events.maxListeners;","              }","","              if( m &gt; 0 &amp;&amp; tree._listeners.length &gt; m ) {","                tree._listeners.warned = true;","                console.error( '(node) warning: possible emitter leak.', tree._listeners.length );","              }","","            }","          }","","          return this;","","        }","","        name = type.shift();","","      }","","      return this;","","    },","","    /**","     * Remove Listener","     *","     * @param type","     * @param listener","     * @returns {*}","     */","    off: function off( type, listener ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0], typeof arguments[1] )","","      if( typeof listener !== 'function' ) {","        throw new Error( 'removeListener only takes instances of Function' );","      }","","      var handlers, leafs = [];","","      var ns = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ) : type.slice();","","      leafs = this.searchListenerTree( null, ns, this._events, 0 );","","      for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {","        var leaf = leafs[iLeaf];","        handlers = leaf._listeners;","        if( Array.isArray( handlers ) ) {","","          var position = -1;","","          for( var i = 0, length = handlers.length; i &lt; length; i++ ) {","            if( handlers[i] === listener || (handlers[i].listener &amp;&amp; handlers[i].listener === listener) || (handlers[i]._origin &amp;&amp; handlers[i]._origin === listener) ) {","              position = i;","              break;","            }","          }","","          if( position &lt; 0 ) {","            return this;","          }","","          leaf._listeners.splice( position, 1 )","","          if( handlers.length === 0 ) {","            delete leaf._listeners;","          }","","        } else if( handlers === listener || (handlers.listener &amp;&amp; handlers.listener === listener) || (handlers._origin &amp;&amp; handlers._origin === listener) ) {","          delete leaf._listeners;","        }","      }","","      return this;","    },","","    /**","     * Remove All Listeners","     *","     * @param type","     * @returns {*}","     */","    removeAllListeners: function removeAllListeners( type ) {","","      if( arguments.length === 0 ) {","        !this._events || ObjectEmitter.call( this );","        return this;","      }","","      var ns = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ) : type.slice();","      var leafs = this.searchListenerTree( null, ns, this._events, 0 );","","      for( var iLeaf = 0; iLeaf &lt; leafs.length; iLeaf++ ) {","        var leaf = leafs[iLeaf];","        leaf._listeners = null;","      }","","      return this;","","    },","","    /**","     * Get Listeners","     *","     * @param type","     * @returns {Array}","     */","    listeners: function listeners( type ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] );","","      var handlers = [];","      var ns = typeof type === 'string' ? type.split( this.get( 'emitter.delimiter', '.' ) ) : type.slice();","","      this.searchListenerTree( handlers, ns, this._events, 0 );","","      return handlers;","","    },","","    searchListenerTree: {","      /**","       * Search Listener Tree","       * @param handlers","       * @param type","       * @param tree","       * @param i","       * @returns {Array}","       */","      value: function searchListenerTree( handlers, type, tree, i ) {","      // ObjectEmitter.logger.debug( arguments.callee.name, handlers, type, typeof tree, i );","","      if( !tree ) {","        return [];","      }","","      var self = this;","","      var listeners = [], leaf, len, branch, xTree, xxTree, isolatedBranch, endReached, typeLength = type.length, currentType = type[i], nextType = type[i + 1];","","      if( i === typeLength &amp;&amp; tree._listeners ) {","","        if( typeof tree._listeners === 'function' ) {","          handlers &amp;&amp; handlers.push( tree._listeners );","          return [tree];","","        } else {","          for( leaf = 0, len = tree._listeners.length; leaf &lt; len; leaf++ ) {","            handlers &amp;&amp; handlers.push( tree._listeners[leaf] );","          }","          return [tree];","        }","","      }","","      if( ( currentType === '*' || currentType === '**' || currentType === '#' ) || tree[ currentType ] ) {","","        if( currentType === '*' ) {","          for( branch in tree ) {","            if( branch !== '_listeners' &amp;&amp; tree.hasOwnProperty( branch ) ) {","              listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i + 1 ) );","            }","          }","          return listeners;","","        } else if( currentType === '**' || currentType === '#' ) {","          endReached = (i + 1 === typeLength || (i + 2 === typeLength &amp;&amp; nextType === '*'));","          if( endReached &amp;&amp; tree._listeners ) {","            // The next element has a _listeners, add it to the handlers.","            listeners = listeners.concat( this.searchListenerTree( handlers, type, tree, typeLength ) );","          }","","          for( branch in tree ) {","            if( branch !== '_listeners' &amp;&amp; tree.hasOwnProperty( branch ) ) {","              if( branch === '*' || ( branch === '**' || branch === '#' ) ) {","                if( tree[branch]._listeners &amp;&amp; !endReached ) {","                  listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], typeLength ) );","                }","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i ) );","              } else if( branch === nextType ) {","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i + 2 ) );","              } else {","                // No match on this one, shift into the tree but not in the type array.","                listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[branch], i ) );","              }","            }","          }","          return listeners;","        }","","        listeners = listeners.concat( this.searchListenerTree( handlers, type, tree[currentType], i + 1 ) );","","      }","","      xTree = tree['*'];","","      if( xTree ) {","        this.searchListenerTree( handlers, type, xTree, i + 1 );","      }","","      xxTree = tree[ '**' ];","","      if( xxTree ) {","        if( i &lt; typeLength ) {","","          if( xxTree._listeners ) {","            this.searchListenerTree( handlers, type, xxTree, typeLength );","          }","","          // Build arrays of matching next branches and others.","          for( branch in xxTree ) {","            if( branch !== '_listeners' &amp;&amp; xxTree.hasOwnProperty( branch ) ) {","              if( branch === nextType ) {","                // We know the next element will match, so jump twice.","                this.searchListenerTree( handlers, type, xxTree[branch], i + 2 );","              } else if( branch === currentType ) {","                // Current node matches, move into the tree.","                this.searchListenerTree( handlers, type, xxTree[branch], i + 1 );","              } else {","                isolatedBranch = {};","                isolatedBranch[branch] = xxTree[branch];","                this.searchListenerTree( handlers, type, { '#': isolatedBranch }, i + 1 );","              }","            }","          }","        } else if( xxTree._listeners ) {","          // We have reached the end and still on a '#'","          this.searchListenerTree( handlers, type, xxTree, typeLength );","        } else if( xxTree['*'] &amp;&amp; xxTree['*']._listeners ) {","          this.searchListenerTree( handlers, type, xxTree['*'], typeLength );","        }","      }","","      return listeners;","","    },","      writable: true,","      configurable: true,","      enumerable: true","    }","","  });","","  /**","   * Emitter Constructor.","   *","   */","  ObjectEmitter.defineConstructor( function create( options ) {","    var Instance = this;","","    Instance.properties({","      _events: {","        value: {},","        enumerable: false","      }","    });","","    // if there is an active domain, then attach to it.","    if( Instance.get( 'usingDomains' ) ) {","      domain = domain || require( 'domain' );","      if( domain.active &amp;&amp; !( Instance instanceof domain.Domain )) {","        Instance.properties({ domain: { value: domain.active, enumerable: false }, });","      }","    }","","    return Instance;","","  });","","});"];

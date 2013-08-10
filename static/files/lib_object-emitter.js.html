@@ -115,6 +115,43 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
    *
    */
   ObjectEmitter.defineProperties( ObjectEmitter, {
+    inject: {
+      /**
+       * Force / Override properties
+       *
+       * If object not provided will bind to context.
+       *
+       * @param {Object} obj
+       * @return {Object}
+       */
+      value: function inject( obj ) {
+
+        var target = obj || this;
+        var Instance = new ObjectEmitter.create();
+
+        for( var key in Instance ) {
+
+          Object.defineProperty( target, key, {
+            value: Instance[ key ],
+            enumerable: false,
+            writable: true,
+            configurable: true
+          });
+
+        }
+
+        // Ensure we have an listener container.
+        if( !target._events ) {
+          target._events = {};
+        }
+
+        return target;
+
+      },
+      enumerable: true,
+      configurable: true,
+      writable: true
+    },
     include: {
       /**
        * Include Instantiated ClusterEmitter
@@ -138,6 +175,11 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
             configurable: true
           });
 
+        }
+
+        // Ensure we have an listener container.
+        if( !target._events ) {
+          target._events = {};
         }
 
         return target;
@@ -255,10 +297,20 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
         this._events = {};
       }
 
-      var type = arguments[0] &amp;&amp; &#x27;object&#x27; === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) ) : arguments[0];
+      // If event storage is still not set, it must be uneditable.
+      if( !this._events ) {
+        return;
+      }
+
+      var type = arguments[0] &amp;&amp; &#x27;object&#x27; === typeof arguments[0] &amp;&amp; Object.keys( arguments[0] ).length ? arguments[0].join( this.get ? this.get( &#x27;emitter.delimiter&#x27;, &#x27;.&#x27; ) : &#x27;.&#x27; ) : arguments[0];
+
+      if( !this._events ) {
+        this._events = {};
+      }
 
       // Loop through the ** functions and invoke them.
-      if( ( this._events[ &#x27;#&#x27; ] || this._events[ &#x27;**&#x27; ] ) &amp;&amp; ( this._events[ &#x27;#&#x27; ].length || this._events[ &#x27;**&#x27; ].length ) ) {
+      if( ( this._events[ &#x27;#&#x27; ] &amp;&amp; this._events[ &#x27;#&#x27; ].length )
+        || ( this._events[ &#x27;**&#x27; ] &amp;&amp; this._events[ &#x27;**&#x27; ].length ) ) {
         var l = arguments.length;
         var __length = this._events[ &#x27;#&#x27; ].length || this._events[ &#x27;**&#x27; ].length;
         var args = new Array( l - 1 );
@@ -269,9 +321,9 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
           this.event = type;
 
           if( this._events[ &#x27;#&#x27; ] ) {
-            this._events[ &#x27;**&#x27; ][i].apply( this, args );
-          } else if ( this._events[ &#x27;**&#x27; ] ) {
             this._events[ &#x27;#&#x27; ][i].apply( this, args );
+          } else if ( this._events[ &#x27;**&#x27; ] ) {
+            this._events[ &#x27;**&#x27; ][i].apply( this, args );
           }
 
         }
@@ -348,6 +400,10 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
      */
     on: function on( type, listener ) {
       // ObjectEmitter.logger.debug( arguments.callee.name, arguments[0] )
+
+      if( type === &#x27;#&#x27; ) {
+        type = &#x27;**&#x27;;
+      }
 
       // If no type specified, assume we are creating an all-event listener
       if( typeof type === &#x27;function&#x27; ) {
@@ -648,24 +704,12 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
   ObjectEmitter.defineConstructor( function create( options ) {
     var Instance = this;
 
-    Instance.set( &#x27;emitter&#x27;, _extend( {
-      delimiter: &#x27;.&#x27;
-    }, options ) );
-
     Instance.properties({
       _events: {
         value: {},
         enumerable: false
-      },
-      writable: {
-        value: true,
-        enumerable: false
-      },
-      readable: {
-        value: true,
-        enumerable: false
-      },
-    })
+      }
+    });
 
     // if there is an active domain, then attach to it.
     if( Instance.get( &#x27;usingDomains&#x27; ) ) {

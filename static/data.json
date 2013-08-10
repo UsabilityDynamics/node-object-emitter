@@ -45,6 +45,24 @@
         {
             "file": "lib/object-emitter.js",
             "line": 31,
+            "description": "Force / Override properties\n\nIf object not provided will bind to context.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 68,
             "description": "Include Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
             "params": [
                 {
@@ -62,7 +80,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 63,
+            "line": 105,
             "description": "Mixin the Emitter properties.",
             "params": [
                 {
@@ -80,14 +98,14 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 125,
+            "line": 167,
             "description": "Constructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
             "class": "",
             "module": "object-channel"
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 254,
+            "line": 306,
             "description": "Add Listener",
             "params": [
                 {
@@ -108,7 +126,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 338,
+            "line": 394,
             "description": "Remove Listener",
             "params": [
                 {
@@ -129,7 +147,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 390,
+            "line": 446,
             "description": "Remove All Listeners",
             "params": [
                 {
@@ -146,7 +164,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 415,
+            "line": 471,
             "description": "Get Listeners",
             "params": [
                 {
@@ -163,7 +181,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 434,
+            "line": 490,
             "description": "Search Listener Tree",
             "params": [
                 {
@@ -192,7 +210,7 @@
         },
         {
             "file": "lib/object-emitter.js",
-            "line": 556,
+            "line": 612,
             "description": "Emitter Constructor.",
             "class": "",
             "module": "object-channel"
@@ -205,63 +223,67 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " lib/object-emitter.js:254"
+            "line": " lib/object-emitter.js:306"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " lib/object-emitter.js:338"
+            "line": " lib/object-emitter.js:394"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " lib/object-emitter.js:390"
+            "line": " lib/object-emitter.js:446"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " lib/object-emitter.js:415"
+            "line": " lib/object-emitter.js:471"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " lib/object-emitter.js:434"
+            "line": " lib/object-emitter.js:490"
         },
         {
             "message": "Missing item type\nInstance Properties",
             "line": " lib/object-emitter.js:25"
         },
         {
-            "message": "Missing item type\nInclude Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
+            "message": "Missing item type\nForce / Override properties\n\nIf object not provided will bind to context.",
             "line": " lib/object-emitter.js:31"
         },
         {
+            "message": "Missing item type\nInclude Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
+            "line": " lib/object-emitter.js:68"
+        },
+        {
             "message": "Missing item type\nMixin the Emitter properties.",
-            "line": " lib/object-emitter.js:63"
+            "line": " lib/object-emitter.js:105"
         },
         {
             "message": "Missing item type\nConstructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
-            "line": " lib/object-emitter.js:125"
+            "line": " lib/object-emitter.js:167"
         },
         {
             "message": "Missing item type\nAdd Listener",
-            "line": " lib/object-emitter.js:254"
+            "line": " lib/object-emitter.js:306"
         },
         {
             "message": "Missing item type\nRemove Listener",
-            "line": " lib/object-emitter.js:338"
+            "line": " lib/object-emitter.js:394"
         },
         {
             "message": "Missing item type\nRemove All Listeners",
-            "line": " lib/object-emitter.js:390"
+            "line": " lib/object-emitter.js:446"
         },
         {
             "message": "Missing item type\nGet Listeners",
-            "line": " lib/object-emitter.js:415"
+            "line": " lib/object-emitter.js:471"
         },
         {
             "message": "Missing item type\nSearch Listener Tree",
-            "line": " lib/object-emitter.js:434"
+            "line": " lib/object-emitter.js:490"
         },
         {
             "message": "Missing item type\nEmitter Constructor.",
-            "line": " lib/object-emitter.js:556"
+            "line": " lib/object-emitter.js:612"
         }
     ]
 }
