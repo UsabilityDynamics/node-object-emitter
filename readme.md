@@ -1,19 +1,19 @@
 ## Overview
+Object Emitter adds Event Emitter functionality to an object, creates a new emitter, or can be used to override an existing object's emitter methods.
+This is similar to the awesome EventEmitter2 module since there is wildcard support.
 
-Note: This is a beta version. Some of the Stream-esque methods will not work as expected yet.
-
-Based on the EventEmitter2 library.
-Notable differences with EventEmitter2 library:
-
-  - Convenience "mixin" method for easily adding EventEmitter to any object.
-  - All module methods (on, emit, off, onAny, etc) are chainable.
+  - Convenience "mixin" method for easily adding Emitter to any object.
+  - All module methods (on, emit, off, etc) are chainable.
   - Wildcard matching enabled by default.
   - Extends existing EventEmitters by working with the _events property.
   - Recognizes Node.js domain usage.
-  - Allows default configuration to be applied to new instances.
   - Allows default "error" callback to avoid throwing "unspecified 'error' event" error.
-  - Custom logger can be set for debugging.
-  - Emulates Stream functionality and allows event piping via the "pipe" method.
+
+## Constructor Methods
+
+ - create: Create a new instance of Object Emitter.
+ - mixin: Add Object Emitter properties into a target object, never overwriting any existing properties.
+ - inject: Force-add Object Emitter properties into the target, overwriting any existing properties if necessary.
 
 ## Basic Usage
 Create new instance of Object Emitter.
@@ -40,15 +40,6 @@ Extend existing EventEmitter object and utilize wildcards.
     process.on( '*.ping', console.log );
     process.emit( 'ding', 'I am ignored.' );
     process.emit( 'ding.ping', 'I am not ignored!' );
-    
-Pipe Request stream to the console.
-
-    app.get( '/pipe', function( req, res, next ) {
-      require( 'object-emitter' ).mixin( req ).pipe( process.stdout );         
-      next();      
-    });
-
-## Advanced Usage
 
 ## License
 
