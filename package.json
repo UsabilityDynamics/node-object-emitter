@@ -1,7 +1,7 @@
 {
   "name": "object-emitter",
-  "version": "0.0.4",
-  "description": "Object Channel event emitter.",
+  "version": "0.0.5",
+  "description": "EventEmitter with some useful additional functionality.",
   "author": {
     "name": "Usability Dynamics",
     "email": "info@usabilitydynamics.com",
@@ -38,8 +38,7 @@
     "url": "https://github.com/UsabilityDynamics/node-object-emitter/issues"
   },
   "dependencies": {
-    "abstract": "*",
-    "object-settings": "*"
+    "abstract": "*"
   },
   "devDependencies": {
     "Faker": "*",

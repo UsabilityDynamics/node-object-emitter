@@ -16,22 +16,23 @@ module.exports = {
   'Object Emitter API': {
 
     'has expected methods': function() {
-      var channels = require( '../' );
+      var ObjectEmitter = require( '../' );
+
+      //console.log( 'typeof', typeof ObjectEmitter.should );
 
       // Constructor tests
-      channels.should.be.a( 'function' );
-      channels.should.have.property( 'prototype' );
+      ObjectEmitter.should.have.property( 'prototype' );
 
       // Inherited Abstract methods
-      channels.should.have.property( 'create' );
-      channels.should.have.property( 'use' );
-      channels.should.have.property( 'get' );
-      channels.should.have.property( 'set' );
-      channels.prototype.should.have.property( 'mixin' );
-      channels.prototype.should.have.property( 'use' );
+      ObjectEmitter.should.have.property( 'create' );
+      ObjectEmitter.should.have.property( 'use' );
+      ObjectEmitter.should.have.property( 'get' );
+      ObjectEmitter.should.have.property( 'set' );
+      ObjectEmitter.prototype.should.have.property( 'mixin' );
+      ObjectEmitter.prototype.should.have.property( 'use' );
 
       // Prototypal Methods
-      channels.prototype.should.have.property( 'on' );
+      ObjectEmitter.prototype.should.have.property( 'on' );
 
     },
 
@@ -41,7 +42,6 @@ module.exports = {
       instance.should.have.property( 'mixin' );
       instance.should.have.property( 'on' );
       instance.should.have.property( 'off' );
-      instance.should.have.property( 'emit' );
       instance.should.have.property( 'emit' );
 
     },

@@ -15,7 +15,7 @@
     <div id="hd" class="yui3-g header">
         <div class="yui3-u-3-4">
             
-                <h1><img src="http://a3d72a45d111006ec192-ec5b80a12b0b09b4d52373336afb4254.r80.cf1.rackcdn.com/usability-dynamics.png" title="Object Emitter"></h1>
+                <h1><img src="http://media.usabilitydynamics.com/logo.png" title="Object Emitter"></h1>
             
         </div>
         <div class="yui3-u-1-4 version">
@@ -107,8 +107,6 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
   var stream     = require( &#x27;stream&#x27; );
   var domain     = require( &#x27;domain&#x27; );
   var util       = require( &#x27;util&#x27; );
-  var inherits   = require( &#x27;util&#x27; ).inherits;
-  var _extend    = require( &#x27;util&#x27; )._extend;
 
   /**
    * Instance Properties
@@ -179,7 +177,16 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
 
         // Ensure we have an listener container.
         if( !target._events ) {
-          target._events = {};
+
+          Object.defineProperties( target, {
+            _events: {
+              value: {},
+              enumerable: false,
+              configurable: true,
+              writable: true
+            }
+          });
+
         }
 
         return target;
@@ -222,7 +229,16 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
 
         // Ensure we have an listener container.
         if( !obj._events ) {
-          obj._events = {};
+
+          Object.defineProperties( obj, {
+            _events: {
+              value: {},
+              enumerable: false,
+              configurable: true,
+              writable: true
+            }
+          });
+
         }
 
         return obj;
@@ -232,23 +248,36 @@ require( &#x27;abstract&#x27; ).createModel( module.exports = function ObjectEmi
       configurable: true,
       writable: true
     },
-    eventify: function eventify( target, namespace, options ) {
+    eventify: {
+      /**
+       * Wrap Object&#x27;s Methods into Events
+       *
+       * @param target
+       * @param namespace
+       * @param options
+       * @returns {*}
+       */
+      value: function eventify( target, namespace, options ) {
 
-      // Enable EventChannel
-      ObjectEmitter.extend( target, namespace, options );
+        // Enable EventChannel
+        ObjectEmitter.extend( target, namespace, options );
 
-      // Trigger Method on Event
-      Object.getOwnPropertyName( target ).forEach( function( method ) {
+        // Trigger Method on Event
+        Object.getOwnPropertyName( target ).forEach( function( method ) {
 
-        // @todo Should probably exclude all EE methods from being bound
-        if( method !== &#x27;on&#x27; &amp;&amp; method != &#x27;emit&#x27; &amp;&amp; &#x27;function&#x27; === typeof target[ method ] ) {
-          target.on( method, target[ method ] );
-        }
+          // @todo Should probably exclude all EE methods from being bound
+          if( method !== &#x27;on&#x27; &amp;&amp; method != &#x27;emit&#x27; &amp;&amp; &#x27;function&#x27; === typeof target[ method ] ) {
+            target.on( method, target[ method ] );
+          }
 
-      });
+        });
 
-      return this;
+        return this;
 
+      },
+      enumerable: true,
+      configurable: true,
+      writable: true
     }
   });
 
