@@ -7,7 +7,7 @@
  * @date 7/22/13
  */
 
-var ObjectEmitter = require( '../' );
+var ObjectEmitter = require( '.' );
 
 var Instance = ObjectEmitter.create();
 
