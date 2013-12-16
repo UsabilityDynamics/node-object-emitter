@@ -12,7 +12,7 @@ module.exports = {
   'Object Emitter': {
 
     'can bind to a function': function( done ) {
-      var emitter = require( '.' );
+      var emitter = require( '../' );
 
       function target() {}
 

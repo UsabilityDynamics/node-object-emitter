@@ -1,0 +1,403 @@
+{
+    "project": {
+        "name": "object-emitter",
+        "description": "EventEmitter with some useful additional functionality.",
+        "version": "0.0.5",
+        "url": "",
+        "logo": "http://media.usabilitydynamics.com/logo.png"
+    },
+    "files": {
+        "lib/object-emitter.js": {
+            "name": "lib/object-emitter.js",
+            "modules": {
+                "object-channel": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "object-channel": {
+            "name": "object-channel",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "lib/object-emitter.js",
+            "line": 1,
+            "description": "Object Channels\n\nCreate EventChannel channels.",
+            "version": "0.1.0",
+            "author": "potanin@UD",
+            "is_constructor": 1
+        }
+    },
+    "classes": {},
+    "classitems": [
+        {
+            "file": "lib/object-emitter.js",
+            "line": 22,
+            "description": "Instance Properties",
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 28,
+            "description": "Force / Override properties\n\nIf object not provided will bind to context.",
+            "todo": [
+                "Migrate structure conversion logic into seperate method."
+            ],
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 90,
+            "description": "Include Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 134,
+            "description": "Mixin the Emitter properties.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 184,
+            "description": "Wrap Object's Methods into Events",
+            "params": [
+                {
+                    "name": "target",
+                    "description": ""
+                },
+                {
+                    "name": "namespace",
+                    "description": ""
+                },
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 216,
+            "description": "Constructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 225,
+            "params": [
+                {
+                    "name": "event",
+                    "description": ""
+                },
+                {
+                    "name": "fn",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 236,
+            "params": [
+                {
+                    "name": "event",
+                    "description": ""
+                },
+                {
+                    "name": "ttl",
+                    "description": ""
+                },
+                {
+                    "name": "fn",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 268,
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 393,
+            "description": "Add Listener",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "listener",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 490,
+            "description": "Remove Listener",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "listener",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 548,
+            "description": "Remove All Listeners",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 578,
+            "description": "Get Listeners",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 603,
+            "description": "Search Listener Tree",
+            "params": [
+                {
+                    "name": "handlers",
+                    "description": ""
+                },
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "tree",
+                    "description": ""
+                },
+                {
+                    "name": "i",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "",
+            "module": "object-channel"
+        },
+        {
+            "file": "lib/object-emitter.js",
+            "line": 725,
+            "description": "Emitter Constructor.",
+            "class": "",
+            "module": "object-channel"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: version",
+            "line": " lib/object-emitter.js:1"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:184"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:225"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:236"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:268"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:393"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:490"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:548"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:578"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/object-emitter.js:603"
+        },
+        {
+            "message": "Missing item type\nInstance Properties",
+            "line": " lib/object-emitter.js:22"
+        },
+        {
+            "message": "Missing item type\nForce / Override properties\n\nIf object not provided will bind to context.",
+            "line": " lib/object-emitter.js:28"
+        },
+        {
+            "message": "Missing item type\nInclude Instantiated ClusterEmitter\n\nIf object not provided will bind to context.",
+            "line": " lib/object-emitter.js:90"
+        },
+        {
+            "message": "Missing item type\nMixin the Emitter properties.",
+            "line": " lib/object-emitter.js:134"
+        },
+        {
+            "message": "Missing item type\nWrap Object's Methods into Events",
+            "line": " lib/object-emitter.js:184"
+        },
+        {
+            "message": "Missing item type\nConstructor Properties\n\nThe following properties are available within the constructor factory or by\nreferencing the constructor.",
+            "line": " lib/object-emitter.js:216"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib/object-emitter.js:225"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib/object-emitter.js:236"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib/object-emitter.js:268"
+        },
+        {
+            "message": "Missing item type\nAdd Listener",
+            "line": " lib/object-emitter.js:393"
+        },
+        {
+            "message": "Missing item type\nRemove Listener",
+            "line": " lib/object-emitter.js:490"
+        },
+        {
+            "message": "Missing item type\nRemove All Listeners",
+            "line": " lib/object-emitter.js:548"
+        },
+        {
+            "message": "Missing item type\nGet Listeners",
+            "line": " lib/object-emitter.js:578"
+        },
+        {
+            "message": "Missing item type\nSearch Listener Tree",
+            "line": " lib/object-emitter.js:603"
+        },
+        {
+            "message": "Missing item type\nEmitter Constructor.",
+            "line": " lib/object-emitter.js:725"
+        }
+    ]
+}
