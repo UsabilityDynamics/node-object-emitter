@@ -1,6 +1,6 @@
 {
   "name": "object-emitter",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "EventEmitter with some useful additional functionality.",
   "author": {
     "name": "Usability Dynamics",
