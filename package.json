@@ -1,6 +1,6 @@
 {
   "name": "object-emitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EventEmitter with some useful additional functionality.",
   "author": {
     "name": "Usability Dynamics",
@@ -38,7 +38,7 @@
     "url": "https://github.com/UsabilityDynamics/node-object-emitter/issues"
   },
   "dependencies": {
-    "abstract": "*"
+    "abstract": "~0.2.0"
   },
   "devDependencies": {
     "grunt-contrib-symlink": "~0.2.0",
