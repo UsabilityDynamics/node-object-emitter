@@ -38,7 +38,7 @@
     "url": "https://github.com/UsabilityDynamics/node-object-emitter/issues"
   },
   "dependencies": {
-    "abstract": "~0.2.0"
+    "abstract": "0.1.2"
   },
   "devDependencies": {
     "grunt-contrib-symlink": "~0.2.0",
