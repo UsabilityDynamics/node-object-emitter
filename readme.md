@@ -18,28 +18,34 @@ This is similar to the awesome EventEmitter2 module since there is wildcard supp
 ## Basic Usage
 Create new instance of Object Emitter.
 
-    require( 'object-emitter' )
-      .create({ delimiter: ':' })
-      .on( '*:two', console.log )
-      .emit( 'ping:one', 'I am ignored.' );  
-      .emit( 'ping:two', 'I am not ignored!' );  
+```javascript
+require( 'object-emitter' )
+  .create({ delimiter: ':' })
+  .on( '*:two', console.log )
+  .emit( 'ping:one', 'I am ignored.' );  
+  .emit( 'ping:two', 'I am not ignored!' );  
+```
 
 Add Object Emitter to a new object.
 
-    var MyObject = {};
-    
-    require( 'object-emitter' ).mixin( MyObject );    
-    
-    MyObject
-      .on( 'ping', console.log )
-      .emit( 'ping', 'Chaining works!' );
+```javascript
+var MyObject = {};
+
+require( 'object-emitter' ).mixin( MyObject );    
+
+MyObject
+  .on( 'ping', console.log )
+  .emit( 'ping', 'Chaining works!' );
+```
     
 Extend existing EventEmitter object and utilize wildcards.
 
-    require( 'object-emitter' ).mixin( process );    
-    process.on( '*.ping', console.log );
-    process.emit( 'ding', 'I am ignored.' );
-    process.emit( 'ding.ping', 'I am not ignored!' );
+```javascript
+require( 'object-emitter' ).mixin( process );    
+process.on( '*.ping', console.log );
+process.emit( 'ding', 'I am ignored.' );
+process.emit( 'ding.ping', 'I am not ignored!' );
+```
 
 ## License
 
