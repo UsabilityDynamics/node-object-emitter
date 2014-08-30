@@ -2,12 +2,12 @@
 Object Emitter adds Event Emitter functionality to an object, creates a new emitter, or can be used to override an existing object's emitter methods.
 This is similar to the awesome EventEmitter2 module since there is wildcard support.
 
-  - Convenience "mixin" method for easily adding Emitter to any object.
-  - All module methods (on, emit, off, etc) are chainable.
-  - Wildcard matching enabled by default.
-  - Extends existing EventEmitters by working with the _events property.
-  - Recognizes Node.js domain usage.
-  - Allows default "error" callback to avoid throwing "unspecified 'error' event" error.
+* Convenience "mixin" method for easily adding Emitter to any object.
+* All module methods (on, emit, off, etc) are chainable.
+* Wildcard matching enabled by default.
+* Extends existing EventEmitters by working with the _events property.
+* Recognizes Node.js domain usage.
+* Allows default "error" callback to avoid throwing "unspecified 'error' event" error.
 
 ## Constructor Methods
 
@@ -51,11 +51,37 @@ process.emit( 'ding', 'I am ignored.' );
 process.emit( 'ding.ping', 'I am not ignored!' );
 ```
 
+The semi "traditional" way of injecting prototypes into new objects works like so:
+
+```javascript
+var ObjectEmitter = require('object-emitter');
+
+function MyConstructor( options ) {
+
+  ObjectEmitter.call(this, {
+    delimiter: ':',
+    throwErrors: false
+  });
+
+  return this;
+
+};
+
+MyConstructor.prototype = Object.create( ObjectEmitter.prototype, {
+  constructor: { value: MyConstructor }
+});
+
+MyConstructor.prototype.someMethod = function() {}
+
+```
+
+
+
 ## License
 
 (The MIT License)
 
-Copyright (c) 2013 Usability Dynamics, Inc. &lt;info@usabilitydynamics.com&gt;
+Copyright (c) 2013-2014 Usability Dynamics, Inc. <info@usabilitydynamics.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

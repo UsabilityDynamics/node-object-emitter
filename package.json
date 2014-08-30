@@ -1,12 +1,13 @@
 {
   "name": "object-emitter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "EventEmitter with some useful additional functionality.",
   "author": {
     "name": "Usability Dynamics",
     "email": "info@usabilitydynamics.com",
     "url": "http://usabilitydynamics.com"
   },
+  "main": "lib/object-emitter.js",
   "contributors": [
     {
       "name": "Andy Potanin",
