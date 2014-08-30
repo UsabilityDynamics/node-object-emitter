@@ -1,0 +1,55 @@
+{
+  "name": "object-emitter",
+  "version": "0.1.2",
+  "dependencies": {
+    "abstract": {
+      "version": "0.1.2",
+      "from": "abstract@0.1.2",
+      "resolved": "https://registry.npmjs.org/abstract/-/abstract-0.1.2.tgz",
+      "dependencies": {
+        "async": {
+          "version": "0.9.0",
+          "from": "async@*",
+          "resolved": "https://registry.npmjs.org/async/-/async-0.9.0.tgz"
+        },
+        "object-settings": {
+          "version": "0.2.0",
+          "from": "object-settings@*",
+          "resolved": "git://github.com/UsabilityDynamics/node-object-settings#d88e3aa18c68c5e63036facb6b8ae63d877d331d",
+          "dependencies": {
+            "debug": {
+              "version": "0.7.4",
+              "from": "debug@~0.7.4",
+              "resolved": "https://registry.npmjs.org/debug/-/debug-0.7.4.tgz"
+            },
+            "eventemitter2": {
+              "version": "0.4.14",
+              "from": "eventemitter2@~0.4.13",
+              "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz"
+            }
+          }
+        },
+        "lodash": {
+          "version": "2.4.1",
+          "from": "lodash@*",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz"
+        },
+        "deep-extend": {
+          "version": "0.2.11",
+          "from": "deep-extend@~0.2.6",
+          "resolved": "https://registry.npmjs.org/deep-extend/-/deep-extend-0.2.11.tgz"
+        },
+        "cli-table": {
+          "version": "0.3.0",
+          "from": "cli-table@*",
+          "resolved": "https://registry.npmjs.org/cli-table/-/cli-table-0.3.0.tgz"
+        },
+        "colors": {
+          "version": "0.6.2",
+          "from": "colors@*",
+          "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
+        }
+      }
+    }
+  }
+}
