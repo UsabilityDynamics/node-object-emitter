@@ -9,7 +9,9 @@
 
 var ObjectEmitter = require( '.' );
 
-var Instance = ObjectEmitter.create();
+var Instance = ObjectEmitter.create({
+  throwErrors: true
+});
 
 var user = ObjectEmitter.include({
   name: 'John',
@@ -31,6 +33,7 @@ Instance.emit( 'some.blue.channel', 'blue' );
 Instance.emit( 'some.red.channel', 'red' );
 
 user.on( 'ping', console.log.bind( console.log, 'user ping:' ) );
+
 user.emit( 'ping', 'ding1' );
 user.emit( 'ping', 'ding2' );
 

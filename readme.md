@@ -19,11 +19,15 @@ This is similar to the awesome EventEmitter2 module since there is wildcard supp
 Create new instance of Object Emitter.
 
 ```javascript
-require( 'object-emitter' )
-  .create({ delimiter: ':' })
+var _emitter = require( 'object-emitter' ).create({
+  delimiter: ':',
+  throwErrors: false
+});
+
+_emitter
   .on( '*:two', console.log )
-  .emit( 'ping:one', 'I am ignored.' );  
-  .emit( 'ping:two', 'I am not ignored!' );  
+  .emit( 'ping:one', 'I am ignored.' );
+  .emit( 'ping:two', 'I am not ignored!' );
 ```
 
 Add Object Emitter to a new object.

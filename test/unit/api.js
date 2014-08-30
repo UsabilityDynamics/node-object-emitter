@@ -16,7 +16,7 @@ module.exports = {
   'Object Emitter API': {
 
     'has expected methods': function() {
-      var ObjectEmitter = require( '../' );
+      var ObjectEmitter = require( '../../.' );
 
       //console.log( 'typeof', typeof ObjectEmitter.should );
 
@@ -37,7 +37,7 @@ module.exports = {
     },
 
     'can be instantiated via create() method.': function() {
-      var instance = require( '../' ).create();
+      var instance = require( '../../.' ).create();
 
       instance.should.have.property( 'mixin' );
       instance.should.have.property( 'on' );
@@ -61,7 +61,7 @@ module.exports = {
     'emit() method works.': function( done ) {
       return done();
 
-      require( '../' ).create().on( 'ping', function( data ) {
+      require( '../../.' ).create().on( 'ping', function( data ) {
         data.should.equal( 'ding' );
         this.should.have.property( 'event', 'ping' );
         done()
